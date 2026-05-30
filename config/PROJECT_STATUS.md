@@ -54,7 +54,8 @@ Merge/Totals:      1/1
 | **Tier Filter** | Tier badge + filter dropdown in recipes.html | ✅ Complete | S/A/B/C/D/F filter from Steam guide, colored tier badges in recipe cards |
 | **Power ↔ Solver** | Solve for Power button on Planner → auto-size generators on Power page | ✅ Complete | `solveForPower()` in app.js, `autoSizeDemand()` in power.html, URL param demand |
 | **Node Biomes** | Map biome info for resource nodes | ✅ Complete | zones array on 11 resource types, displayed as BIOMES line in each card |
-| **EW Recipes** | Add missing Equipment Workshop recipes | ✅ Complete | 10 new (EW) alt variants added (311 total recipes), automated Basic recipes preserved |
+| **EW Recipes** | Add missing Equipment Workshop recipes | ✅ Complete | 15 EW variant recipes (consumable only — ammo, filters, rebar); equipment/tools one-time-craft, excluded |
+| **SCIM Cross-Reference** | Compare SCIM game data vs TSV for discrepancies | ✅ Complete | All 21 flagged items are U8→1.0 rebalances, not errors. TSV is correct for 1.0 |
 
 ---
 
