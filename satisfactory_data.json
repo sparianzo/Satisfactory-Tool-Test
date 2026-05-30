@@ -1,0 +1,7289 @@
+{
+  "source": "Docs.json from Satisfactory Game (CL-273254)",
+  "game_version": "++FactoryGame+rel-early-access-CL-273254",
+  "items": {
+    "BP_HealthGainDescriptor": {
+      "display_name": "BP_HealthGainDescriptor",
+      "description": "",
+      "stack_size": "",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "BP_HealthGainDescriptor"
+    },
+    "Desc_WAT1": {
+      "display_name": "Somersloop WIP",
+      "description": "A strange alien thing with a mind-bending and somehow familiar shape.\r\nWORK IN PROGRESS\r\nANALYZING THIS WILL NOT GIVE YOU ANYTHING",
+      "stack_size": "EStackSize::SS_SMALL",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_WAT1"
+    },
+    "Desc_WAT2": {
+      "display_name": "Mercer Sphere WIP",
+      "description": "A Weird alien thing with an impossibly smooth surface.\r\nWORK IN PROGRESS\r\nANALYZING THIS WILL NOT GIVE YOU ANYTHING",
+      "stack_size": "EStackSize::SS_SMALL",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_WAT2"
+    },
+    "Desc_SAM": {
+      "display_name": "SAM Ore",
+      "description": "Strange Alien Metal that glistens with new possibilities.\r\nWORK IN PROGRESS\r\nTHIS IS NOT USED",
+      "stack_size": "EStackSize::SS_SMALL",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_SAM"
+    },
+    "Desc_IronRod": {
+      "display_name": "Iron Rod",
+      "description": "Used for crafting.\r\nOne of the most basic parts.",
+      "stack_size": "EStackSize::SS_BIG",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_IronRod"
+    },
+    "Desc_Wire": {
+      "display_name": "Wire",
+      "description": "Used for crafting.\r\nOne of the most basic parts.",
+      "stack_size": "EStackSize::SS_HUGE",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_Wire"
+    },
+    "Desc_IronScrew": {
+      "display_name": "Screw",
+      "description": "Used for crafting.\r\nOne of the most basic parts.",
+      "stack_size": "EStackSize::SS_HUGE",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_IronScrew"
+    },
+    "Descrystal": {
+      "display_name": "Blue Power Slug",
+      "description": "A strange slug radiating a weak strange power.",
+      "stack_size": "EStackSize::SS_SMALL",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Descrystal"
+    },
+    "Descrystal_mk2": {
+      "display_name": "Yellow Power Slug",
+      "description": "A strange slug radiating a strange power.",
+      "stack_size": "EStackSize::SS_SMALL",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Descrystal_mk2"
+    },
+    "Descrystal_mk3": {
+      "display_name": "Purple Power Slug",
+      "description": "A strange slug radiating a powerful strange power.",
+      "stack_size": "EStackSize::SS_SMALL",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Descrystal_mk3"
+    },
+    "DescrystalShard": {
+      "display_name": "Power Shard",
+      "description": "Mucus from the power slugs compressed into a solid crystal-like shard. \r\nIt radiates a strange power.",
+      "stack_size": "",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "DescrystalShard"
+    },
+    "Desc_Berry": {
+      "display_name": "Paleberry",
+      "description": "Slot: Hands\r\nConsumable\r\n\r\nCan be eaten to restore one health segment.",
+      "stack_size": "EStackSize::SS_SMALL",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_Berry"
+    },
+    "Default__Desc_Berry": {
+      "display_name": "Paleberry",
+      "description": "Slot: Hands\r\nConsumable\r\n\r\nCan be eaten to restore one health segment.",
+      "stack_size": "EStackSize::SS_SMALL",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Default__Desc_Berry"
+    },
+    "Desc_Shroom": {
+      "display_name": "Bacon Agaric",
+      "description": "Slot: Hands\r\nConsumable\r\n\r\nCan be eaten to restore two health segments.",
+      "stack_size": "EStackSize::SS_SMALL",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_Shroom"
+    },
+    "Default__Desc_Shroom": {
+      "display_name": "Bacon Agaric",
+      "description": "Slot: Hands\r\nConsumable\r\n\r\nCan be eaten to restore two health segments.",
+      "stack_size": "EStackSize::SS_SMALL",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Default__Desc_Shroom"
+    },
+    "Desc_Nut": {
+      "display_name": "Beryl Nut",
+      "description": "Slot: Hands\r\nConsumable\r\n\r\nCan be eaten to restore half a health segment.",
+      "stack_size": "",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_Nut"
+    },
+    "Default__Desc_Nut": {
+      "display_name": "Beryl Nut",
+      "description": "Slot: Hands\r\nConsumable\r\n\r\nCan be eaten to restore half a health segment.",
+      "stack_size": "",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Default__Desc_Nut"
+    },
+    "Desc_RawQuartz": {
+      "display_name": "Raw Quartz",
+      "description": "Raw Quartz can be processed into Quartz Crystals and Silica, which both offer a variety of applications.",
+      "stack_size": "",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_RawQuartz"
+    },
+    "Desc_QuartzCrystal": {
+      "display_name": "Quartz Crystal",
+      "description": "Derived from Raw Quartz. Used in the production of advanced radar technology and high-quality display screens.",
+      "stack_size": "EStackSize::SS_BIG",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_QuartzCrystal"
+    },
+    "Desc_Gift": {
+      "display_name": "FICSMAS Gift",
+      "description": "Special FICSMAS buildings and parts can be obtained and produced from this FICSIT Holiday present.\r\n\r\n*Watch the sky for deliveries from orbit!",
+      "stack_size": "EStackSize::SS_HUGE",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_Gift"
+    },
+    "DescandyCane": {
+      "display_name": "Candy Cane",
+      "description": "A delicious Candy Cane to be enjoyed during the FICSMAS Holidays. \r\n*Disclaimer: Can't be consumed...",
+      "stack_size": "EStackSize::SS_HUGE",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "DescandyCane"
+    },
+    "Desc_Snow": {
+      "display_name": "Actual Snow",
+      "description": "It's snow. Not the nice, thick, crunchy kind though... more the disgustingly wet, slushy kind... Guess we can make stuff from it.",
+      "stack_size": "EStackSize::SS_HUGE",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_Snow"
+    },
+    "Desc_XmasBow": {
+      "display_name": "FICSMAS Bow",
+      "description": "A fancy Bow, maybe someone can wear this? You certainly can't! Probably, some parts and decorations can be made from this.",
+      "stack_size": "EStackSize::SS_HUGE",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_XmasBow"
+    },
+    "Desc_XmasBall3": {
+      "display_name": "Copper FICSMAS Ornament",
+      "description": "Still used for making FICSMAS Decorations.",
+      "stack_size": "EStackSize::SS_BIG",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_XmasBall3"
+    },
+    "Desc_XmasBall4": {
+      "display_name": "Iron FICSMAS Ornament",
+      "description": "This super special... nope... still just used for making FICSMAS Decorations.",
+      "stack_size": "EStackSize::SS_BIG",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_XmasBall4"
+    },
+    "Desc_XmasBranch": {
+      "display_name": "FICSMAS Tree Branch",
+      "description": "A special Tree Branch used to produce parts and buildings during the FICSMAS Event.",
+      "stack_size": "EStackSize::SS_HUGE",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_XmasBranch"
+    },
+    "Desc_XmasBall1": {
+      "display_name": "Red FICSMAS Ornament",
+      "description": "Used for making FICSMAS Decorations.",
+      "stack_size": "EStackSize::SS_HUGE",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_XmasBall1"
+    },
+    "Desc_XmasBall2": {
+      "display_name": "Blue FICSMAS Ornament",
+      "description": "Again, used for making FICSMAS Decorations.",
+      "stack_size": "EStackSize::SS_HUGE",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_XmasBall2"
+    },
+    "Desc_XmasBallCluster": {
+      "display_name": "FICSMAS Ornament Bundle",
+      "description": "All the FICSMAS Ornaments smashed together to make even more FICSMAS Decorations!",
+      "stack_size": "",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_XmasBallCluster"
+    },
+    "Desc_XmasWreath": {
+      "display_name": "FICSMAS Decoration",
+      "description": "A decoration used to make decorations. Its use cases are questionable.",
+      "stack_size": "",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_XmasWreath"
+    },
+    "Desc_XmasStar": {
+      "display_name": "FICSMAS Wonder Star",
+      "description": "This special FICSMAS Star signifies the productivity of FICSIT all across the universe. It also signifies the fact that you have nearly completed the Holiday Event, so it's time to get back to work.",
+      "stack_size": "EStackSize::SS_SMALL",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_XmasStar"
+    },
+    "Desc_XmasLights": {
+      "display_name": "FICSMAS Lights",
+      "description": "",
+      "stack_size": "EStackSize::SS_BIG",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_XmasLights"
+    },
+    "Descoal": {
+      "display_name": "Coal",
+      "description": "Mainly used as fuel for vehicles & coal generators and for steel production.",
+      "stack_size": "",
+      "energy_value": 300.0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Descoal"
+    },
+    "Desc_ModularFrameFused": {
+      "display_name": "Fused Modular Frame",
+      "description": "A corrosion resistant, nitride hardened, highly robust, yet lightweight modular frame.",
+      "stack_size": "EStackSize::SS_SMALL",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_ModularFrameFused"
+    },
+    "Desc_QuantumOscillator": {
+      "display_name": "Superposition Oscillator",
+      "description": "A superposition oscillator is an oscillator circuit that uses the mechanical resonance of a vibrating crystal to create a string vibration with a precise frequency. Often used in teleportation technology and dimensional manipulation.",
+      "stack_size": "",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_QuantumOscillator"
+    },
+    "DescomputerQuantum": {
+      "display_name": "Quantum Computer",
+      "description": "Uses quantum bits instead of normal bits which makes it much faster than a traditional computer.",
+      "stack_size": "EStackSize::SS_SMALL",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "DescomputerQuantum"
+    },
+    "Desc_Medkit": {
+      "display_name": "Medicinal Inhaler",
+      "description": "Fully restores health when used.\r\n\r\nThe FICSIT Medicinal Inhaler can be produced from a variety of different ingredients.",
+      "stack_size": "EStackSize::SS_SMALL",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_Medkit"
+    },
+    "Default__Desc_Medkit": {
+      "display_name": "Medicinal Inhaler",
+      "description": "Fully restores health when used.\r\n\r\nThe FICSIT Medicinal Inhaler can be produced from a variety of different ingredients.",
+      "stack_size": "EStackSize::SS_SMALL",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Default__Desc_Medkit"
+    },
+    "DescolorCartridge": {
+      "display_name": "Color Cartridge",
+      "description": "Used for applying Patterns to structures with the Customizer.\r\n\r\n(Patterns can be purchased in the AWESOME Shop.)",
+      "stack_size": "EStackSize::SS_BIG",
+      "energy_value": 900.0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "DescolorCartridge"
+    },
+    "Desc_ResourceSinkCoupon": {
+      "display_name": "FICSIT Coupon",
+      "description": "A special FICSIT bonus program Coupon, obtained through the AWESOME Sink.\r\nCan be redeemed in the AWESOME Shop for bonus milestones and rewards.",
+      "stack_size": "EStackSize::SS_HUGE",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_ResourceSinkCoupon"
+    },
+    "Desc_HazmatFilter": {
+      "display_name": "Iodine Infused Filter",
+      "description": "Used in the Hazmat Suit to absorb radioactive particles.",
+      "stack_size": "EStackSize::SS_SMALL",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_HazmatFilter"
+    },
+    "BP_EquipmentDescriptorSnowballMittens": {
+      "display_name": "Snowball Pile",
+      "description": "Slot: Hands\r\nAmmo: Snowball\r\n\r\n*Disclaimer: Snowballs in pile not included in ammo reserve.",
+      "stack_size": "EStackSize::SS_ONE",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "BP_EquipmentDescriptorSnowballMittens"
+    },
+    "Desc_AluminumIngot": {
+      "display_name": "Aluminum Ingot",
+      "description": "Aluminum Ingots are made from Aluminum Scrap, which is refined from Alumina Solution.\r\nUsed to produce specialized aluminum-based parts.",
+      "stack_size": "",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_AluminumIngot"
+    },
+    "BP_EquipmentDescriptorHazmatSuit": {
+      "display_name": "Hazmat Suit",
+      "description": "Shields Pioneers from the adverse effects of radiation. \r\nConsumes Iodine Infused Filters from the inventory while worn in radioactive areas.",
+      "stack_size": "EStackSize::SS_ONE",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "BP_EquipmentDescriptorHazmatSuit"
+    },
+    "BP_EquipmentDescriptorRifle": {
+      "display_name": "Rifle",
+      "description": "A long-range, rapid-fire weapon. Specifically designed to deliver adequate performance within the designated work area.",
+      "stack_size": "EStackSize::SS_ONE",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "BP_EquipmentDescriptorRifle"
+    },
+    "BP_EquipmentDescriptorRifleMk2": {
+      "display_name": "Rifle Mk.2",
+      "description": "A better rifle!",
+      "stack_size": "EStackSize::SS_ONE",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "BP_EquipmentDescriptorRifleMk2"
+    },
+    "Desc_RebarGunProjectile": {
+      "display_name": "Rebar Gun",
+      "description": "Improvised ranged weapon for self-defense. Has to be reloaded after each use.",
+      "stack_size": "EStackSize::SS_ONE",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_RebarGunProjectile"
+    },
+    "Desc_RebarGun": {
+      "display_name": "Rebar Gun (OLD)",
+      "description": "The Rebar Gun is an improvised weapon, used to protect yourself from dangerous wildlife.",
+      "stack_size": "EStackSize::SS_ONE",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_RebarGun"
+    },
+    "BP_EquipmentDescriptorNobeliskDetonator": {
+      "display_name": "Nobelisk Detonator",
+      "description": "A remote-control device used to handle and detonate Nobelisks.",
+      "stack_size": "EStackSize::SS_ONE",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "BP_EquipmentDescriptorNobeliskDetonator"
+    },
+    "Desc_Fuel": {
+      "display_name": "Packaged Fuel",
+      "description": "Fuel, packaged for alternative transport. Can be used as fuel for Vehicles and the Jetpack.",
+      "stack_size": "",
+      "energy_value": 750.0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_Fuel"
+    },
+    "Desc_LiquidFuel": {
+      "display_name": "Fuel",
+      "description": "Fuel can be used to generate power or packaged to be used as fuel for Vehicles or the Jetpack.",
+      "stack_size": "EStackSize::SS_FLUID",
+      "energy_value": 0.75,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_LiquidFuel"
+    },
+    "Desc_Biofuel": {
+      "display_name": "Solid Biofuel",
+      "description": "The most energy-efficient form of solid biomass. Can be used as fuel for the Chainsaw.",
+      "stack_size": "EStackSize::SS_BIG",
+      "energy_value": 450.0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_Biofuel"
+    },
+    "Desc_PackagedBiofuel": {
+      "display_name": "Packaged Liquid Biofuel",
+      "description": "Liquid Biofuel, packaged for alternative transport. Can be used as fuel for Vehicles and the Jetpack.",
+      "stack_size": "",
+      "energy_value": 750.0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_PackagedBiofuel"
+    },
+    "Desc_LiquidBiofuel": {
+      "display_name": "Liquid Biofuel",
+      "description": "Liquid Biofuel can be used to generate power or packaged to be used as fuel for Vehicles.",
+      "stack_size": "EStackSize::SS_FLUID",
+      "energy_value": 0.75,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_LiquidBiofuel"
+    },
+    "Desc_Filter": {
+      "display_name": "Gas Filter",
+      "description": "Used in the Gas Mask to filter out toxins and pollutants from the air.",
+      "stack_size": "EStackSize::SS_SMALL",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_Filter"
+    },
+    "Desc_AlienProtein": {
+      "display_name": "Alien Protein",
+      "description": "Ground down Alien Remains in a neat little package.\r\nUsed for medical purposes and to research alien organisms.",
+      "stack_size": "",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_AlienProtein"
+    },
+    "Desc_Battery": {
+      "display_name": "Battery",
+      "description": "Primarily used as fuel for Drones and Vehicles.",
+      "stack_size": "EStackSize::SS_BIG",
+      "energy_value": 6000.0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_Battery"
+    },
+    "Desc_AluminumPlate": {
+      "display_name": "Alclad Aluminum Sheet",
+      "description": "Thin, lightweight, and highly durable sheets mainly used for products that require high heat conduction or a high specific strength.",
+      "stack_size": "EStackSize::SS_BIG",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_AluminumPlate"
+    },
+    "Descement": {
+      "display_name": "Concrete",
+      "description": "Used for building.\r\nGood for stable foundations.",
+      "stack_size": "EStackSize::SS_HUGE",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Descement"
+    },
+    "Descable": {
+      "display_name": "Cable",
+      "description": "Used for crafting.\r\nPrimarily used to build power lines.",
+      "stack_size": "EStackSize::SS_BIG",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Descable"
+    },
+    "Desc_Stone": {
+      "display_name": "Limestone",
+      "description": "Used for crafting.\r\nBasic resource mainly used for stable foundations.",
+      "stack_size": "",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_Stone"
+    },
+    "Desc_IronPlate": {
+      "display_name": "Iron Plate",
+      "description": "Used for crafting.\r\nOne of the most basic parts.",
+      "stack_size": "EStackSize::SS_BIG",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_IronPlate"
+    },
+    "Desc_Water": {
+      "display_name": "Water",
+      "description": "It's water.",
+      "stack_size": "EStackSize::SS_FLUID",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_Water"
+    },
+    "Desc_PackagedWater": {
+      "display_name": "Packaged Water",
+      "description": "Water, packaged for alternative transport.",
+      "stack_size": "",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_PackagedWater"
+    },
+    "Desc_FlowerPetals": {
+      "display_name": "Flower Petals",
+      "description": "Used for crafting.\r\nColorful native flower petals.",
+      "stack_size": "EStackSize::SS_HUGE",
+      "energy_value": 100.0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_FlowerPetals"
+    },
+    "Desc_Mycelia": {
+      "display_name": "Mycelia",
+      "description": "Used for crafting.\r\nBiomass Burners and vehicles can use it for power.",
+      "stack_size": "EStackSize::SS_BIG",
+      "energy_value": 20.0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_Mycelia"
+    },
+    "Desc_Wood": {
+      "display_name": "Wood",
+      "description": "Primarily used as fuel.\r\nBiomass Burners and vehicles can use it for power.",
+      "stack_size": "EStackSize::SS_BIG",
+      "energy_value": 100.0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_Wood"
+    },
+    "Desc_Leaves": {
+      "display_name": "Leaves",
+      "description": "Primarily used as fuel.\r\nBiomass Burners and vehicles can use it for power.",
+      "stack_size": "EStackSize::SS_HUGE",
+      "energy_value": 15.0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_Leaves"
+    },
+    "Desc_GenericBiomass": {
+      "display_name": "Biomass",
+      "description": "Primarily used as fuel.\r\nBiomass burners and vehicles can use it for power.\r\nBiomass is much more energy-efficient than raw biological matter.",
+      "stack_size": "EStackSize::SS_BIG",
+      "energy_value": 180.0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_GenericBiomass"
+    },
+    "Desc_Fabric": {
+      "display_name": "Fabric",
+      "description": "Used for equipment crafting.\r\nFlexible but durable fabric.",
+      "stack_size": "",
+      "energy_value": 15.0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_Fabric"
+    },
+    "Desc_Vines": {
+      "display_name": "Vines",
+      "description": "Primarily used as fuel.\r\nBiomass Burners and vehicles can use it for power.",
+      "stack_size": "EStackSize::SS_BIG",
+      "energy_value": 35.0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_Vines"
+    },
+    "Desc_Pigment": {
+      "display_name": "Pigment",
+      "description": "Used for crafting.\r\nThe color is brilliant and clear.",
+      "stack_size": "EStackSize::SS_BIG",
+      "energy_value": 100.0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_Pigment"
+    },
+    "Desc_SpaceElevatorPart_1": {
+      "display_name": "Smart Plating",
+      "description": "Project Part #1. Ship with the Space Elevator to complete phases of Project Assembly.",
+      "stack_size": "EStackSize::SS_SMALL",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_SpaceElevatorPart_1"
+    },
+    "Desc_SpaceElevatorPart_2": {
+      "display_name": "Versatile Framework",
+      "description": "Project Part #2. Ship with the Space Elevator to complete phases of Project Assembly.",
+      "stack_size": "EStackSize::SS_SMALL",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_SpaceElevatorPart_2"
+    },
+    "Desc_SpaceElevatorPart_3": {
+      "display_name": "Automated Wiring",
+      "description": "Project Part #3. Ship with the Space Elevator to complete phases of Project Assembly.",
+      "stack_size": "EStackSize::SS_SMALL",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_SpaceElevatorPart_3"
+    },
+    "Desc_SpaceElevatorPart_4": {
+      "display_name": "Modular Engine",
+      "description": "Project Part #4. Ship with the Space Elevator to complete phases of Project Assembly.",
+      "stack_size": "EStackSize::SS_SMALL",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_SpaceElevatorPart_4"
+    },
+    "Desc_SpaceElevatorPart_5": {
+      "display_name": "Adaptive Control Unit",
+      "description": "Project Part #5. Ship with the Space Elevator to complete phases of Project Assembly.",
+      "stack_size": "EStackSize::SS_SMALL",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_SpaceElevatorPart_5"
+    },
+    "Desc_SpaceElevatorPart_6": {
+      "display_name": "Magnetic Field Generator",
+      "description": "Project Part #7. Ship with the Space Elevator to complete phases of Project Assembly.\r\n\r\nThese modular generators use superconducting magnets and vast amounts of electricity to produce an easily expandable and powerful magnetic field.",
+      "stack_size": "EStackSize::SS_SMALL",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_SpaceElevatorPart_6"
+    },
+    "Desc_SpaceElevatorPart_7": {
+      "display_name": "Assembly Director System",
+      "description": "Project Part #6. Ship with the Space Elevator to complete phases of Project Assembly.\r\n\r\nThis extremely fast and precise computing system is specifically designed to direct the Project Assembly: Assembly Phase.",
+      "stack_size": "EStackSize::SS_SMALL",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_SpaceElevatorPart_7"
+    },
+    "Desc_SpaceElevatorPart_8": {
+      "display_name": "Thermal Propulsion Rocket",
+      "description": "Project Part #8. Ship with the Space Elevator to complete phases of Project Assembly.\r\n\r\nUses extreme heat to produce the high-pressure plasma required to get Project Assembly into motion.",
+      "stack_size": "EStackSize::SS_SMALL",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_SpaceElevatorPart_8"
+    },
+    "Desc_SpaceElevatorPart_9": {
+      "display_name": "Nuclear Pasta",
+      "description": "Project Part #9. Ship with the Space Elevator to complete phases of Project Assembly.\r\nPower Usage: 500-1500 MW (1000 MW average).\r\n\r\nNuclear Pasta is extremely dense degenerate matter, formed when extreme pressure forces protons and electrons together into neutrons. It is theorized to exist naturally within the crust of neutron stars.",
+      "stack_size": "EStackSize::SS_SMALL",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_SpaceElevatorPart_9"
+    },
+    "DescrystalOscillator": {
+      "display_name": "Crystal Oscillator",
+      "description": "A crystal oscillator is an electronic oscillator circuit that uses the mechanical resonance of a vibrating crystal to create an electrical signal with a precise frequency.",
+      "stack_size": "",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "DescrystalOscillator"
+    },
+    "DescircuitBoard": {
+      "display_name": "Circuit Board",
+      "description": "Circuit Boards are advanced electronics that are used in a plethora of different ways.",
+      "stack_size": "EStackSize::SS_BIG",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "DescircuitBoard"
+    },
+    "BP_EquipmentDescriptorShockShank": {
+      "display_name": "Xeno-Zapper",
+      "description": "Standard issue electroshock self-defense weapon for melee range.",
+      "stack_size": "EStackSize::SS_ONE",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "BP_EquipmentDescriptorShockShank"
+    },
+    "BP_EquipmentDescriptorStunSpear": {
+      "display_name": "Xeno-Basher",
+      "description": "Heavy electroshock self-defense weapon for melee range.",
+      "stack_size": "EStackSize::SS_ONE",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "BP_EquipmentDescriptorStunSpear"
+    },
+    "BP_EquipmentDescriptorCandyCane": {
+      "display_name": "Candy Cane Basher",
+      "description": "Slot: Hands\r\n\r\nHeavy delicious self defense weapon for melee range.",
+      "stack_size": "EStackSize::SS_ONE",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "BP_EquipmentDescriptorCandyCane"
+    },
+    "Deschainsaw": {
+      "display_name": "Chainsaw",
+      "description": "Slot: Hands\r\nFuel: Biofuel\r\n\r\nUsed to clear an area of flora that is too difficult to remove by hand.",
+      "stack_size": "EStackSize::SS_ONE",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Deschainsaw"
+    },
+    "DescopperSheet": {
+      "display_name": "Copper Sheet",
+      "description": "Used for crafting.\r\nPrimarily used for pipelines due to its high corrosion resistance.",
+      "stack_size": "EStackSize::SS_BIG",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "DescopperSheet"
+    },
+    "BP_EquipmentDescriptorBeacon": {
+      "display_name": "Beacon",
+      "description": "PENDING REMOVAL\r\nThis item will (likely) be removed in a future update.\r\n\r\nCurrently only used as an ingredient in an alternative recipe.",
+      "stack_size": "",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "BP_EquipmentDescriptorBeacon"
+    },
+    "Desc_Parachute": {
+      "display_name": "Parachute",
+      "description": "Slows down your fall when activated in mid-air.",
+      "stack_size": "EStackSize::SS_ONE",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_Parachute"
+    },
+    "BP_EquipmentDescriptorJumpingStilts": {
+      "display_name": "Blade Runners",
+      "description": "An exoskeleton for the lower legs that assists movement, allowing Pioneers to sprint faster and jump higher.\r\nAlso dampens the impact of landing.",
+      "stack_size": "EStackSize::SS_ONE",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "BP_EquipmentDescriptorJumpingStilts"
+    },
+    "Desc_NuclearWaste": {
+      "display_name": "Uranium Waste",
+      "description": "The by-product of consuming Uranium Fuel Rods in the Nuclear Power Plant.\r\nNon-fissile Uranium can be extracted. Handle with caution.\r\n\r\nCaution: HIGHLY Radioactive.",
+      "stack_size": "EStackSize::SS_HUGE",
+      "energy_value": 0,
+      "radioactive_decay": 10.0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_NuclearWaste"
+    },
+    "Desc_PlutoniumWaste": {
+      "display_name": "Plutonium Waste",
+      "description": "The by-product of consuming Plutonium Fuel Rods in the Nuclear Power Plant.\r\nNeeds to be stored in a safe location. Handle with caution.\r\n\r\nCaution: EXTREMELY Radioactive.",
+      "stack_size": "EStackSize::SS_HUGE",
+      "energy_value": 0,
+      "radioactive_decay": 200.0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_PlutoniumWaste"
+    },
+    "Desc_NuclearFuelRod": {
+      "display_name": "Uranium Fuel Rod",
+      "description": "Used as fuel for the Nuclear Power Plant.\r\n\r\nCaution: Produces radioactive Uranium Waste when consumed.\r\nCaution: Moderately Radioactive.",
+      "stack_size": "EStackSize::SS_SMALL",
+      "energy_value": 750000.0,
+      "radioactive_decay": 50.0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_NuclearFuelRod"
+    },
+    "Desc_IronPlateReinforced": {
+      "display_name": "Reinforced Iron Plate",
+      "description": "Used for crafting.\r\nA sturdier and more durable Iron Plate.",
+      "stack_size": "",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_IronPlateReinforced"
+    },
+    "Desc_BoomBox": {
+      "display_name": "Boombox",
+      "description": "The Boombox is used to play the hottest music tapes on the planet.\r\n\r\nTapes are automatically added to the Boombox when obtained.",
+      "stack_size": "EStackSize::SS_ONE",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_BoomBox"
+    },
+    "Desc_Sulfur": {
+      "display_name": "Sulfur",
+      "description": "Sulfur is primarily used for Black Powder.",
+      "stack_size": "",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_Sulfur"
+    },
+    "Desc_OreGold": {
+      "display_name": "Caterium Ore",
+      "description": "Caterium Ore is smelted into Caterium Ingots. Caterium Ingots are mostly used for advanced electronics.",
+      "stack_size": "",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_OreGold"
+    },
+    "Desc_HogParts": {
+      "display_name": "Hog Remains",
+      "description": "The carapace of the alien Hog creature.\r\nUsed for MAM research.",
+      "stack_size": "EStackSize::SS_SMALL",
+      "energy_value": 250.0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_HogParts"
+    },
+    "Desc_SpitterParts": {
+      "display_name": "Plasma Spitter Remains",
+      "description": "The remains of a plasma spitting alien creature.\r\nUsed for MAM research.",
+      "stack_size": "EStackSize::SS_SMALL",
+      "energy_value": 250.0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_SpitterParts"
+    },
+    "Desc_StingerParts": {
+      "display_name": "Stinger Remains",
+      "description": "The remains of whatever that creepy thing was.\r\nUsed for MAM research.",
+      "stack_size": "EStackSize::SS_SMALL",
+      "energy_value": 250.0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_StingerParts"
+    },
+    "Desc_HatcherParts": {
+      "display_name": "Hatcher Remains",
+      "description": "The shell-like remains of an alien... thing.\r\nUsed for MAM research.",
+      "stack_size": "EStackSize::SS_SMALL",
+      "energy_value": 250.0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_HatcherParts"
+    },
+    "Desc_OreIron": {
+      "display_name": "Iron Ore",
+      "description": "Used for crafting.\r\nThe most essential basic resource.",
+      "stack_size": "",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_OreIron"
+    },
+    "Desc_OreCopper": {
+      "display_name": "Copper Ore",
+      "description": "Used for crafting.\r\nBasic resource mainly used for electricity.",
+      "stack_size": "",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_OreCopper"
+    },
+    "DescopperIngot": {
+      "display_name": "Copper Ingot",
+      "description": "Used for crafting.\r\nCrafted into the most basic parts.",
+      "stack_size": "",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "DescopperIngot"
+    },
+    "Desc_IronIngot": {
+      "display_name": "Iron Ingot",
+      "description": "Used for crafting.\r\nCrafted into the most basic parts.",
+      "stack_size": "",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_IronIngot"
+    },
+    "Desc_Gunpowder": {
+      "display_name": "Black Powder",
+      "description": "An explosive powder that is commonly used to produce simple explosives.",
+      "stack_size": "EStackSize::SS_BIG",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_Gunpowder"
+    },
+    "Desc_GunpowderMK2": {
+      "display_name": "Smokeless Powder",
+      "description": "An explosive powder that is commonly used to produce modern firearms.",
+      "stack_size": "",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_GunpowderMK2"
+    },
+    "Desc_Plastic": {
+      "display_name": "Plastic",
+      "description": "A versatile and easy to manufacture material that can be used for a lot of things.",
+      "stack_size": "EStackSize::SS_BIG",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_Plastic"
+    },
+    "Desc_HeavyOilResidue": {
+      "display_name": "Heavy Oil Residue",
+      "description": "A by-product of Plastic and Rubber production. Can be further refined into Fuel and Petroleum Coke.",
+      "stack_size": "EStackSize::SS_FLUID",
+      "energy_value": 0.4,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_HeavyOilResidue"
+    },
+    "Desc_PackagedOilResidue": {
+      "display_name": "Packaged Heavy Oil Residue",
+      "description": "Heavy Oil Residue, packaged for alternative transport. Can be used as fuel for Vehicles.",
+      "stack_size": "",
+      "energy_value": 400.0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_PackagedOilResidue"
+    },
+    "Desc_SteelPlateReinforced": {
+      "display_name": "Encased Industrial Beam",
+      "description": "Encased Industrial Beams utilizes the compressive strength of concrete and tensile strength of steel simultaneously.\r\nMostly used as a stable basis for constructing buildings.",
+      "stack_size": "",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_SteelPlateReinforced"
+    },
+    "Desc_SteelPipe": {
+      "display_name": "Steel Pipe",
+      "description": "Steel Pipes are used most often when constructing a little more advanced buildings.",
+      "stack_size": "EStackSize::SS_BIG",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_SteelPipe"
+    },
+    "Desc_SteelPlate": {
+      "display_name": "Steel Beam",
+      "description": "Steel Beams are used most often when constructing a little more advanced buildings.",
+      "stack_size": "EStackSize::SS_BIG",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_SteelPlate"
+    },
+    "BP_EquipmentDescriptorObjectScanner": {
+      "display_name": "Object Scanner",
+      "description": "Scans the area for a set item. Beeps at a rate proportional to proximity and direction.",
+      "stack_size": "EStackSize::SS_ONE",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "BP_EquipmentDescriptorObjectScanner"
+    },
+    "Desc_Motor": {
+      "display_name": "Motor",
+      "description": "The Motor creates a mechanical force that is used to move things from machines to vehicles.",
+      "stack_size": "EStackSize::SS_SMALL",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_Motor"
+    },
+    "Desc_Rubber": {
+      "display_name": "Rubber",
+      "description": "Rubber is a material that is very flexible and has a lot of friction.",
+      "stack_size": "EStackSize::SS_BIG",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_Rubber"
+    },
+    "DescircuitBoardHighSpeed": {
+      "display_name": "AI Limiter",
+      "description": "AI Limiters are super advanced electronics that are used to control AIs and keep them from evolving in malicious ways.",
+      "stack_size": "",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "DescircuitBoardHighSpeed"
+    },
+    "Desc_UraniumCell": {
+      "display_name": "Encased Uranium Cell",
+      "description": "Uranium Cells are produced from Uranium Ore. \r\nUsed to produce Uranium Fuel Rods for Nuclear Power production.\r\n\r\nCaution: Mildly Radioactive.",
+      "stack_size": "EStackSize::SS_BIG",
+      "energy_value": 0,
+      "radioactive_decay": 0.5,
+      "resource_sink_points": 0,
+      "class_name": "Desc_UraniumCell"
+    },
+    "Desc_TurboFuel": {
+      "display_name": "Packaged Turbofuel",
+      "description": "Turbofuel, packaged for alternative transport. Can be used as fuel for Vehicles and the Jetpack.",
+      "stack_size": "",
+      "energy_value": 2000.0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_TurboFuel"
+    },
+    "Desc_LiquidTurboFuel": {
+      "display_name": "Turbofuel",
+      "description": "A more efficient alternative to Fuel. Can be used to generate power or packaged to be used as fuel for Vehicles.",
+      "stack_size": "EStackSize::SS_FLUID",
+      "energy_value": 2.0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_LiquidTurboFuel"
+    },
+    "Desc_AluminumCasing": {
+      "display_name": "Aluminum Casing",
+      "description": "A versatile container cast from Aluminum Ingots.",
+      "stack_size": "EStackSize::SS_BIG",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_AluminumCasing"
+    },
+    "Desc_HardDrive": {
+      "display_name": "Hard Drive",
+      "description": "A hard drive with FICSIT data. Analyze it in the MAM to salvage its contents.",
+      "stack_size": "",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_HardDrive"
+    },
+    "Desc_ServerRack": {
+      "display_name": "Server Rack",
+      "description": "THIS SHOULDNT EVEN EXISTS?!?!?!",
+      "stack_size": "",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_ServerRack"
+    },
+    "Desc_Rotor": {
+      "display_name": "Rotor",
+      "description": "Used for crafting.\r\nThe moving parts of a motor.",
+      "stack_size": "",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_Rotor"
+    },
+    "Desc_AlienDNACapsule": {
+      "display_name": "Alien DNA Capsule",
+      "description": "This data capsule translates organic chemicals into readable alien genetics information.\r\nUsed for researching alien organisms.\r\n\r\nGo the extra kilometer! Knowledge is power, and power is just efficiency with fewer steps. Depositing Alien DNA Capsules in the AWESOME Sink provides FICSIT with knowledge, and Pioneers with Coupons.",
+      "stack_size": "EStackSize::SS_SMALL",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_AlienDNACapsule"
+    },
+    "Desc_ModularFrameHeavy": {
+      "display_name": "Heavy Modular Frame",
+      "description": "A more robust multi-purpose frame.",
+      "stack_size": "EStackSize::SS_SMALL",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_ModularFrameHeavy"
+    },
+    "Desc_ModularFrame": {
+      "display_name": "Modular Frame",
+      "description": "Used for crafting.\r\nMulti-purpose building block.",
+      "stack_size": "EStackSize::SS_SMALL",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_ModularFrame"
+    },
+    "DescompactedCoal": {
+      "display_name": "Compacted Coal",
+      "description": "A much more efficient alternative to Coal. Used as fuel for vehicles and coal generators.",
+      "stack_size": "",
+      "energy_value": 630.0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "DescompactedCoal"
+    },
+    "Desc_FluidCanister": {
+      "display_name": "Empty Canister",
+      "description": "Used to package fluids for transportation.",
+      "stack_size": "",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_FluidCanister"
+    },
+    "Desc_PolymerResin": {
+      "display_name": "Polymer Resin",
+      "description": "Used for crafting.\r\nA by-product of oil refinement into fuel. Commonly used to manufacture plastics.",
+      "stack_size": "EStackSize::SS_BIG",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_PolymerResin"
+    },
+    "Desc_LiquidOil": {
+      "display_name": "Crude Oil",
+      "description": "Crude Oil is refined into all kinds of Oil-based resources, like Fuel and Plastic.",
+      "stack_size": "EStackSize::SS_FLUID",
+      "energy_value": 0.32,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_LiquidOil"
+    },
+    "Desc_PackagedOil": {
+      "display_name": "Packaged Oil",
+      "description": "Crude Oil, packaged for alternative transport. Can be used as fuel for Vehicles.",
+      "stack_size": "",
+      "energy_value": 320.0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_PackagedOil"
+    },
+    "Desc_PetroleumCoke": {
+      "display_name": "Petroleum Coke",
+      "description": "Used for crafting.\r\nA carbon-rich material distilled from Heavy Oil Residue. \r\nUsed as a less efficient coal replacement.",
+      "stack_size": "EStackSize::SS_BIG",
+      "energy_value": 180.0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_PetroleumCoke"
+    },
+    "Desc_ElectromagneticControlRod": {
+      "display_name": "Electromagnetic Control Rod",
+      "description": "Control Rods regulate power output via electromagnetism.",
+      "stack_size": "",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_ElectromagneticControlRod"
+    },
+    "Desc_PlutoniumFuelRod": {
+      "display_name": "Plutonium Fuel Rod",
+      "description": "Used as fuel for the Nuclear Power Plant.\r\n\r\nCaution: Produces radioactive Plutonium Waste when consumed.\r\nCaution: HIGHLY Radioactive.",
+      "stack_size": "EStackSize::SS_SMALL",
+      "energy_value": 1500000.0,
+      "radioactive_decay": 250.0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_PlutoniumFuelRod"
+    },
+    "Desc_Silica": {
+      "display_name": "Silica",
+      "description": "Derived from Raw Quartz. Commonly used to create glass structures, advanced refinement processes, and alternative production of electronics.",
+      "stack_size": "EStackSize::SS_BIG",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_Silica"
+    },
+    "Desc_Stator": {
+      "display_name": "Stator",
+      "description": "Used for crafting.\r\nThe static parts of a motor.",
+      "stack_size": "",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_Stator"
+    },
+    "Desc_HighSpeedWire": {
+      "display_name": "Quickwire",
+      "description": "Caterium's high conductivity and resistance to corrosion makes it ideal for small, advanced electronics.",
+      "stack_size": "EStackSize::SS_HUGE",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_HighSpeedWire"
+    },
+    "Desc_GoldIngot": {
+      "display_name": "Caterium Ingot",
+      "description": "Caterium Ingots are smelted from Caterium Ore. Caterium Ingots are mostly used for advanced electronics.",
+      "stack_size": "",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_GoldIngot"
+    },
+    "Desc_HighSpeedConnector": {
+      "display_name": "High-Speed Connector",
+      "description": "The high-speed connector connects several cables and wires in a very efficient way. Uses a standard pattern so its applications are many and varied.",
+      "stack_size": "",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_HighSpeedConnector"
+    },
+    "BP_EqDescZipLine": {
+      "display_name": "Zipline",
+      "description": "Provides faster traversal in factories by allowing Pioneers to zip along Power lines.\r\nActivate the Zipline and aim at a nearby Power Line to connect to it.",
+      "stack_size": "EStackSize::SS_ONE",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "BP_EqDescZipLine"
+    },
+    "Desc_Zipline": {
+      "display_name": "Zipline",
+      "description": "Provides faster traversal in factories by allowing Pioneers to zip along Power lines.\r\nActivate the Zipline and aim at a nearby Power Line to connect to it.",
+      "stack_size": "EStackSize::SS_ONE",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_Zipline"
+    },
+    "Descomputer": {
+      "display_name": "Computer",
+      "description": "A Computer is a complex logic machine that is used to control advanced behavior in machines.",
+      "stack_size": "EStackSize::SS_SMALL",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Descomputer"
+    },
+    "DescomputerSuper": {
+      "display_name": "Supercomputer",
+      "description": "The supercomputer is the next-gen version of the computer.",
+      "stack_size": "EStackSize::SS_SMALL",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "DescomputerSuper"
+    },
+    "Desc_HUBParts": {
+      "display_name": "HUB Parts",
+      "description": "The parts required to build the basic structure of the HUB.",
+      "stack_size": "EStackSize::SS_ONE",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_HUBParts"
+    },
+    "Desc_DarkMatter": {
+      "display_name": "Dark Matter",
+      "description": "",
+      "stack_size": "EStackSize::SS_SMALL",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_DarkMatter"
+    },
+    "Desc_OreUranium": {
+      "display_name": "Uranium",
+      "description": "Uranium is a radioactive element. \r\nUsed to produce Encased Uranium Cells for Uranium Fuel Rods.\r\n\r\nCaution: Moderately Radioactive.",
+      "stack_size": "",
+      "energy_value": 0,
+      "radioactive_decay": 15.0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_OreUranium"
+    },
+    "Desc_SteelIngot": {
+      "display_name": "Steel Ingot",
+      "description": "Steel Ingots are made from Iron Ore that's been smelted with Coal. They are made into several parts used in building construction.",
+      "stack_size": "",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_SteelIngot"
+    },
+    "BP_ItemDescriptorPortableMiner": {
+      "display_name": "Portable Miner",
+      "description": "Can be set up on a resource node to automatically extract the resource. Note that it has limited storage space.",
+      "stack_size": "EStackSize::SS_ONE",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "BP_ItemDescriptorPortableMiner"
+    },
+    "Desc_GolfCart": {
+      "display_name": "Factory Cart™",
+      "description": "The one and only FICSIT Factory Cart™\r\nNow with special - FICSIT Foundation only - Grip Wheels, for an even smoother and faster factory floor experience!",
+      "stack_size": "EStackSize::SS_ONE",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_GolfCart"
+    },
+    "Desc_GolfCartGold": {
+      "display_name": "Golden Factory Cart™",
+      "description": "The one and only Golden FICSIT Factory Cart™\r\n\r\nYou have now officially ascended. \r\nGo forth now, Master of Spaghetti, God of the Factory, Sinker of Cups, Employee of the Planet... travel in STYLE!",
+      "stack_size": "EStackSize::SS_ONE",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_GolfCartGold"
+    },
+    "BP_EquipmentDescriptorCupGold": {
+      "display_name": "'Employee of the Planet' Cup",
+      "description": "Slot: Hands\r\n\r\nA shiny little cup, allowing extra hard-working Pioneers to enjoy a cup of well-deserved coffee while they wait for what the future will bring.",
+      "stack_size": "EStackSize::SS_ONE",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "BP_EquipmentDescriptorCupGold"
+    },
+    "Desc_GasTank": {
+      "display_name": "Empty Fluid Tank",
+      "description": "Used to package gases and volatile liquids for transportation.",
+      "stack_size": "",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_GasTank"
+    },
+    "Desc_NitricAcid": {
+      "display_name": "Nitric Acid",
+      "description": "Produced by reaction of Nitrogen Gas with Water. Its high corrosiveness and oxidizing properties make it an excellent choice for refinement and fuel production processes.",
+      "stack_size": "EStackSize::SS_FLUID",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_NitricAcid"
+    },
+    "Desc_PackagedNitricAcid": {
+      "display_name": "Packaged Nitric Acid",
+      "description": "Nitric Acid, packaged for alternative transport.",
+      "stack_size": "",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_PackagedNitricAcid"
+    },
+    "DescopperDust": {
+      "display_name": "Copper Powder",
+      "description": "Ground down Copper Ingots.\r\nThe high natural density of Copper, combined with the granularity of the powder, makes this part fit for producing Nuclear Pasta in the Particle Accelerator.",
+      "stack_size": "EStackSize::SS_HUGE",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "DescopperDust"
+    },
+    "Desc_PressureConversionCube": {
+      "display_name": "Pressure Conversion Cube",
+      "description": "Converts outgoing force into internal pressure. Required to contain unstable, high-energy matter.",
+      "stack_size": "EStackSize::SS_SMALL",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_PressureConversionCube"
+    },
+    "Desc_AluminumPlateReinforced": {
+      "display_name": "Heat Sink",
+      "description": "Used to dissipate heat faster.",
+      "stack_size": "",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_AluminumPlateReinforced"
+    },
+    "Desc_PlutoniumCell": {
+      "display_name": "Encased Plutonium Cell",
+      "description": "Plutonium Cells are concrete encased Plutonium Pellets.\r\nUsed to produce Plutonium Fuel Rods for Nuclear Power production.\r\n\r\nCaution: Moderately Radioactive.",
+      "stack_size": "EStackSize::SS_BIG",
+      "energy_value": 0,
+      "radioactive_decay": 120.0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_PlutoniumCell"
+    },
+    "Desc_NonFissibleUranium": {
+      "display_name": "Non-fissile Uranium",
+      "description": "The isotope Uranium-238 is non-fissile, meaning it cannot be used for nuclear fission. It can, however, be converted into fissile Plutonium in the Particle Accelerator.\r\n\r\nCaution: Mildly Radioactive.",
+      "stack_size": "EStackSize::SS_HUGE",
+      "energy_value": 0,
+      "radioactive_decay": 0.75,
+      "resource_sink_points": 0,
+      "class_name": "Desc_NonFissibleUranium"
+    },
+    "Desc_PlutoniumPellet": {
+      "display_name": "Plutonium Pellet",
+      "description": "Produced in the Particle Accelerator through conversion of Non-fissile Uranium.\r\nUsed to produce Encased Plutonium Cells for Plutonium Fuel Rods.\r\n\r\nPower Usage: 250-750 MW (500 MW average).\r\nCaution: Moderately Radioactive.",
+      "stack_size": "",
+      "energy_value": 0,
+      "radioactive_decay": 20.0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_PlutoniumPellet"
+    },
+    "DescoolingSystem": {
+      "display_name": "Cooling System",
+      "description": "Used to keep temperatures of advanced parts and buildings from exceeding to inefficient levels.",
+      "stack_size": "",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "DescoolingSystem"
+    },
+    "Desc_MotorLightweight": {
+      "display_name": "Turbo Motor",
+      "description": "The Turbo Motor is a more complex and more powerful version of the regular Motor.",
+      "stack_size": "EStackSize::SS_SMALL",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_MotorLightweight"
+    },
+    "Desc_ModularFrameLightweight": {
+      "display_name": "Radio Control Unit",
+      "description": "Enhances and directs radio signals.",
+      "stack_size": "EStackSize::SS_SMALL",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_ModularFrameLightweight"
+    },
+    "Desc_SulfuricAcid": {
+      "display_name": "Sulfuric Acid",
+      "description": "A mineral acid produced by combining Sulfur and Water in a complex reaction. Primarily used in refinement processes and Battery production.",
+      "stack_size": "EStackSize::SS_FLUID",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_SulfuricAcid"
+    },
+    "Desc_PackagedSulfuricAcid": {
+      "display_name": "Packaged Sulfuric Acid",
+      "description": "Sulfuric Acid, packaged for alternative transport.",
+      "stack_size": "",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_PackagedSulfuricAcid"
+    },
+    "Desc_AluminaSolution": {
+      "display_name": "Alumina Solution",
+      "description": "Dissolved Alumina, extracted from Bauxite. Can be further refined into Aluminum Scrap for Aluminum Ingot production.",
+      "stack_size": "EStackSize::SS_FLUID",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_AluminaSolution"
+    },
+    "Desc_PackagedAlumina": {
+      "display_name": "Packaged Alumina Solution",
+      "description": "Alumina Solution, packaged for alternative transport.",
+      "stack_size": "",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_PackagedAlumina"
+    },
+    "Desc_PackagedNitrogenGas": {
+      "display_name": "Packaged Nitrogen Gas",
+      "description": "Nitrogen Gas, packaged for alternative transport.",
+      "stack_size": "",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_PackagedNitrogenGas"
+    },
+    "Desc_NitrogenGas": {
+      "display_name": "Nitrogen Gas",
+      "description": "Nitrogen can be used in a variety of ways, such as metallurgy, cooling, and Nitric Acid production. On Massage-2(AB)b, it can be extracted from underground gas wells.",
+      "stack_size": "EStackSize::SS_FLUID",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_NitrogenGas"
+    },
+    "DesconveyorLiftHandle": {
+      "display_name": "INTERNAL_ONLY",
+      "description": "INTERNAL_ONLY used for conveyor renderer.",
+      "stack_size": "",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "DesconveyorLiftHandle"
+    },
+    "Desc_AluminumScrap": {
+      "display_name": "Aluminum Scrap",
+      "description": "Aluminum Scrap is pure aluminum refined from Alumina. Can be smelted down to Aluminum Ingots for industrial usage.",
+      "stack_size": "EStackSize::SS_HUGE",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_AluminumScrap"
+    },
+    "Desc_OreBauxite": {
+      "display_name": "Bauxite",
+      "description": "Bauxite is used to produce Alumina, which can be further refined into the Aluminum Scrap required to produce Aluminum Ingots.",
+      "stack_size": "",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_OreBauxite"
+    },
+    "BP_EquipmentDescriptorGasmask": {
+      "display_name": "Gas Mask",
+      "description": "Allows Pioneers to breathe normally while in toxic gas areas.\r\nConsumes Gas Filters from the inventory when in use.",
+      "stack_size": "EStackSize::SS_ONE",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "BP_EquipmentDescriptorGasmask"
+    },
+    "BP_EquipmentDescriptorCup": {
+      "display_name": "Cup",
+      "description": "Slot: Hands\r\n\r\nStandard issue Cup for melee range.",
+      "stack_size": "EStackSize::SS_ONE",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "BP_EquipmentDescriptorCup"
+    },
+    "BP_EquipmentDescriptorHoverPack": {
+      "display_name": "Hover Pack",
+      "description": "Power consumption: 100 MW\r\n\r\nAllows for vertical movement and hovering in mid-air to improve building efficiency and factory traversal. Wirelessly connects to nearby power connections, such as Power Poles and Buildings, for power consumption.\r\n\r\nSlow-fall: Hold {PlayerMovement_Jump} after losing connection mid-air.\r\nDisable Hoverpack: Double tap {PlayerMovement_Crouch} while hovering.",
+      "stack_size": "EStackSize::SS_ONE",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "BP_EquipmentDescriptorHoverPack"
+    },
+    "BP_EquipmentDescriptorJetPack": {
+      "display_name": "Jetpack",
+      "description": "The Jetpack allows Pioneers to travel through the air with increased control.\r\n\r\nFuel is automatically consumed from the inventory to refill the Jetpack while on the ground.\r\nDifferent fuel types can be used and provide different levels of Jetpack efficiency. The preferred fuel type will be used if available and can be set in the equipment inventory.",
+      "stack_size": "EStackSize::SS_ONE",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "BP_EquipmentDescriptorJetPack"
+    },
+    "Desc_SpaceElevatorBlocker": {
+      "display_name": "UNAVAILABLE",
+      "description": "You can't progress past this point in Early Access",
+      "stack_size": "",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_SpaceElevatorBlocker"
+    },
+    "Desc_PropaneGas": {
+      "display_name": "Propane Gas",
+      "description": "Propane Gas",
+      "stack_size": "EStackSize::SS_FLUID",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_PropaneGas"
+    },
+    "Desc_SAMIngot": {
+      "display_name": "SAM Ingot",
+      "description": "Used to make SAM Fluctuator.",
+      "stack_size": "EStackSize::SS_SMALL",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_SAMIngot"
+    },
+    "Desc_QuantumCrystal": {
+      "display_name": "Quantum Crystal",
+      "description": "Quantum Crystals are crystals manipulated to store data in quantum bits. Can store an incredible amount of data.",
+      "stack_size": "EStackSize::SS_SMALL",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_QuantumCrystal"
+    },
+    "Desc_UraniumPellet": {
+      "display_name": "Uranium Pellet",
+      "description": "Produced in the Refinery, Uranium Pellets are purified and cast from Uranium Ore. \r\nPrimarily used to make Uranium Cells.\r\n\r\nCaution: Moderately radioactive.",
+      "stack_size": "EStackSize::SS_BIG",
+      "energy_value": 0,
+      "radioactive_decay": 7.5,
+      "resource_sink_points": 0,
+      "class_name": "Desc_UraniumPellet"
+    },
+    "BP_EquipmentDescriptorMachinegun": {
+      "display_name": "Machine Gun",
+      "description": "A deadly machine gun made for one thing - effective disposal of irritating wildlife.",
+      "stack_size": "EStackSize::SS_ONE",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "BP_EquipmentDescriptorMachinegun"
+    },
+    "Desc_SAMFluctuator": {
+      "display_name": "SAM Fluctuator",
+      "description": "Special part used to build the Converter.",
+      "stack_size": "EStackSize::SS_SMALL",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_SAMFluctuator"
+    },
+    "BP_EquipmentDescriptorBuildGun": {
+      "display_name": "Build Gun",
+      "description": "",
+      "stack_size": "",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "BP_EquipmentDescriptorBuildGun"
+    },
+    "Desc_VolcanicGas": {
+      "display_name": "Volcanic Gas",
+      "description": "Volcanic Gas",
+      "stack_size": "EStackSize::SS_FLUID",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_VolcanicGas"
+    },
+    "Desc_RocketFuel": {
+      "display_name": "Rocket Fuel",
+      "description": "Rocket Fuel",
+      "stack_size": "EStackSize::SS_FLUID",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_RocketFuel"
+    },
+    "Desc_NaturalGas": {
+      "display_name": "Natural Gas",
+      "description": "Natural Gas",
+      "stack_size": "EStackSize::SS_FLUID",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_NaturalGas"
+    },
+    "Desc_HydrogenGas": {
+      "display_name": "Hydrogen Gas",
+      "description": "Hydrogen Gas",
+      "stack_size": "EStackSize::SS_FLUID",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_HydrogenGas"
+    },
+    "Desc_ToolBelt": {
+      "display_name": "Tool Belt",
+      "description": "This is a tool belt",
+      "stack_size": "EStackSize::SS_ONE",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_ToolBelt"
+    },
+    "BP_EquipmentDescriptorResourceMiner": {
+      "display_name": "Portable Miner",
+      "description": "",
+      "stack_size": "EStackSize::SS_ONE",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "BP_EquipmentDescriptorResourceMiner"
+    },
+    "Desc_DowsingStick": {
+      "display_name": "Dowsing stick",
+      "description": "",
+      "stack_size": "EStackSize::SS_ONE",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Desc_DowsingStick"
+    },
+    "BP_EquipmentDescriptorHookShot": {
+      "display_name": "Hook Shot",
+      "description": "Slot: Hands\r\n\r\nGrappling hook.",
+      "stack_size": "EStackSize::SS_ONE",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "BP_EquipmentDescriptorHookShot"
+    },
+    "Descamera": {
+      "display_name": "AWESOME Camera",
+      "description": "",
+      "stack_size": "EStackSize::SS_ONE",
+      "energy_value": 0,
+      "radioactive_decay": 0,
+      "resource_sink_points": 0,
+      "class_name": "Descamera"
+    }
+  },
+  "recipes": [
+    {
+      "name": "Alternate: Adhered Iron Plate",
+      "class_name": "Recipe_Alternate_AdheredIronPlate",
+      "ingredients": [
+        {
+          "item": "Desc_IronPlate",
+          "amount": 3
+        },
+        {
+          "item": "Desc_Rubber",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_IronPlateReinforced",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "Assembler"
+      ],
+      "duration": 16.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Alclad Casing",
+      "class_name": "Recipe_Alternate_AlcladCasing",
+      "ingredients": [
+        {
+          "item": "Desc_AluminumIngot",
+          "amount": 20
+        },
+        {
+          "item": "DescopperIngot",
+          "amount": 10
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_AluminumCasing",
+          "amount": 15
+        }
+      ],
+      "produced_in": [
+        "Assembler"
+      ],
+      "duration": 8.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Automated Miner",
+      "class_name": "Recipe_Alternate_AutomatedMiner",
+      "ingredients": [
+        {
+          "item": "Desc_Motor",
+          "amount": 1
+        },
+        {
+          "item": "Desc_SteelPipe",
+          "amount": 4
+        },
+        {
+          "item": "Desc_IronRod",
+          "amount": 4
+        },
+        {
+          "item": "Desc_IronPlate",
+          "amount": 2
+        }
+      ],
+      "products": [
+        {
+          "item": "BP_ItemDescriptorPortableMiner",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "Manufacturer"
+      ],
+      "duration": 60.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Automated Speed Wiring",
+      "class_name": "Recipe_Alternate_HighSpeedWiring",
+      "ingredients": [
+        {
+          "item": "Desc_Stator",
+          "amount": 2
+        },
+        {
+          "item": "Desc_Wire",
+          "amount": 40
+        },
+        {
+          "item": "Desc_HighSpeedConnector",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_SpaceElevatorPart_3",
+          "amount": 4
+        }
+      ],
+      "produced_in": [
+        "Manufacturer"
+      ],
+      "duration": 32.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Biocoal",
+      "class_name": "Recipe_Alternateoal_2",
+      "ingredients": [
+        {
+          "item": "Desc_GenericBiomass",
+          "amount": 5
+        }
+      ],
+      "products": [
+        {
+          "item": "Descoal",
+          "amount": 6
+        }
+      ],
+      "produced_in": [
+        "Constructor"
+      ],
+      "duration": 8.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Bolted Frame",
+      "class_name": "Recipe_Alternate_BoltedFrame",
+      "ingredients": [
+        {
+          "item": "Desc_IronPlateReinforced",
+          "amount": 3
+        },
+        {
+          "item": "Desc_IronScrew",
+          "amount": 56
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_ModularFrame",
+          "amount": 2
+        }
+      ],
+      "produced_in": [
+        "Assembler"
+      ],
+      "duration": 24.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Bolted Iron Plate",
+      "class_name": "Recipe_Alternate_ReinforcedIronPlate_1",
+      "ingredients": [
+        {
+          "item": "Desc_IronPlate",
+          "amount": 18
+        },
+        {
+          "item": "Desc_IronScrew",
+          "amount": 50
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_IronPlateReinforced",
+          "amount": 3
+        }
+      ],
+      "produced_in": [
+        "Assembler"
+      ],
+      "duration": 12.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Cast Screw",
+      "class_name": "Recipe_Alternate_Screw",
+      "ingredients": [
+        {
+          "item": "Desc_IronIngot",
+          "amount": 5
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_IronScrew",
+          "amount": 20
+        }
+      ],
+      "produced_in": [
+        "Constructor"
+      ],
+      "duration": 24.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Caterium Circuit Board",
+      "class_name": "Recipe_AlternateircuitBoard_2",
+      "ingredients": [
+        {
+          "item": "Desc_Plastic",
+          "amount": 10
+        },
+        {
+          "item": "Desc_HighSpeedWire",
+          "amount": 30
+        }
+      ],
+      "products": [
+        {
+          "item": "DescircuitBoard",
+          "amount": 7
+        }
+      ],
+      "produced_in": [
+        "Assembler"
+      ],
+      "duration": 48.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Caterium Computer",
+      "class_name": "Recipe_Alternateomputer_1",
+      "ingredients": [
+        {
+          "item": "DescircuitBoard",
+          "amount": 7
+        },
+        {
+          "item": "Desc_HighSpeedWire",
+          "amount": 28
+        },
+        {
+          "item": "Desc_Rubber",
+          "amount": 12
+        }
+      ],
+      "products": [
+        {
+          "item": "Descomputer",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "Manufacturer"
+      ],
+      "duration": 16.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Caterium Wire",
+      "class_name": "Recipe_Alternate_Wire_2",
+      "ingredients": [
+        {
+          "item": "Desc_GoldIngot",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_Wire",
+          "amount": 8
+        }
+      ],
+      "produced_in": [
+        "Constructor"
+      ],
+      "duration": 4.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Charcoal",
+      "class_name": "Recipe_Alternateoal_1",
+      "ingredients": [
+        {
+          "item": "Desc_Wood",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "item": "Descoal",
+          "amount": 10
+        }
+      ],
+      "produced_in": [
+        "Constructor"
+      ],
+      "duration": 4.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Cheap Silica",
+      "class_name": "Recipe_Alternate_Silica",
+      "ingredients": [
+        {
+          "item": "Desc_RawQuartz",
+          "amount": 3
+        },
+        {
+          "item": "Desc_Stone",
+          "amount": 5
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_Silica",
+          "amount": 7
+        }
+      ],
+      "produced_in": [
+        "Assembler"
+      ],
+      "duration": 16.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Classic Battery",
+      "class_name": "Recipe_AlternatelassicBattery",
+      "ingredients": [
+        {
+          "item": "Desc_Sulfur",
+          "amount": 6
+        },
+        {
+          "item": "Desc_AluminumPlate",
+          "amount": 7
+        },
+        {
+          "item": "Desc_Plastic",
+          "amount": 8
+        },
+        {
+          "item": "Desc_Wire",
+          "amount": 12
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_Battery",
+          "amount": 4
+        }
+      ],
+      "produced_in": [
+        "Manufacturer"
+      ],
+      "duration": 8.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Coated Cable",
+      "class_name": "Recipe_AlternateoatedCable",
+      "ingredients": [
+        {
+          "item": "Desc_Wire",
+          "amount": 5
+        },
+        {
+          "item": "Desc_HeavyOilResidue",
+          "amount": 2000
+        }
+      ],
+      "products": [
+        {
+          "item": "Descable",
+          "amount": 9
+        }
+      ],
+      "produced_in": [
+        "Refinery"
+      ],
+      "duration": 8.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Coated Iron Canister",
+      "class_name": "Recipe_AlternateoatedIronCanister",
+      "ingredients": [
+        {
+          "item": "Desc_IronPlate",
+          "amount": 2
+        },
+        {
+          "item": "DescopperSheet",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_FluidCanister",
+          "amount": 4
+        }
+      ],
+      "produced_in": [
+        "Assembler"
+      ],
+      "duration": 4.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Coated Iron Plate",
+      "class_name": "Recipe_AlternateoatedIronPlate",
+      "ingredients": [
+        {
+          "item": "Desc_IronIngot",
+          "amount": 10
+        },
+        {
+          "item": "Desc_Plastic",
+          "amount": 2
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_IronPlate",
+          "amount": 15
+        }
+      ],
+      "produced_in": [
+        "Assembler"
+      ],
+      "duration": 12.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Coke Steel Ingot",
+      "class_name": "Recipe_AlternateokeSteelIngot",
+      "ingredients": [
+        {
+          "item": "Desc_OreIron",
+          "amount": 15
+        },
+        {
+          "item": "Desc_PetroleumCoke",
+          "amount": 15
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_SteelIngot",
+          "amount": 20
+        }
+      ],
+      "produced_in": [
+        "Foundry"
+      ],
+      "duration": 12.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Compacted Coal",
+      "class_name": "Recipe_Alternate_EnrichedCoal",
+      "ingredients": [
+        {
+          "item": "Descoal",
+          "amount": 5
+        },
+        {
+          "item": "Desc_Sulfur",
+          "amount": 5
+        }
+      ],
+      "products": [
+        {
+          "item": "DescompactedCoal",
+          "amount": 5
+        }
+      ],
+      "produced_in": [
+        "Assembler"
+      ],
+      "duration": 12.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Compacted Steel Ingot",
+      "class_name": "Recipe_Alternate_IngotSteel_2",
+      "ingredients": [
+        {
+          "item": "Desc_OreIron",
+          "amount": 6
+        },
+        {
+          "item": "DescompactedCoal",
+          "amount": 3
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_SteelIngot",
+          "amount": 10
+        }
+      ],
+      "produced_in": [
+        "Foundry"
+      ],
+      "duration": 16.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Cooling Device",
+      "class_name": "Recipe_AlternateoolingDevice",
+      "ingredients": [
+        {
+          "item": "Desc_AluminumPlateReinforced",
+          "amount": 5
+        },
+        {
+          "item": "Desc_Motor",
+          "amount": 1
+        },
+        {
+          "item": "Desc_NitrogenGas",
+          "amount": 24000
+        }
+      ],
+      "products": [
+        {
+          "item": "DescoolingSystem",
+          "amount": 2
+        }
+      ],
+      "produced_in": [
+        "Blender"
+      ],
+      "duration": 32.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Copper Alloy Ingot",
+      "class_name": "Recipe_AlternateopperAlloyIngot",
+      "ingredients": [
+        {
+          "item": "Desc_OreCopper",
+          "amount": 10
+        },
+        {
+          "item": "Desc_OreIron",
+          "amount": 5
+        }
+      ],
+      "products": [
+        {
+          "item": "DescopperIngot",
+          "amount": 20
+        }
+      ],
+      "produced_in": [
+        "Foundry"
+      ],
+      "duration": 12.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Copper Rotor",
+      "class_name": "Recipe_AlternateopperRotor",
+      "ingredients": [
+        {
+          "item": "DescopperSheet",
+          "amount": 6
+        },
+        {
+          "item": "Desc_IronScrew",
+          "amount": 52
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_Rotor",
+          "amount": 3
+        }
+      ],
+      "produced_in": [
+        "Assembler"
+      ],
+      "duration": 16.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Crystal Beacon",
+      "class_name": "Recipe_Alternate_Beacon_1",
+      "ingredients": [
+        {
+          "item": "Desc_SteelPlate",
+          "amount": 4
+        },
+        {
+          "item": "Desc_SteelPipe",
+          "amount": 16
+        },
+        {
+          "item": "DescrystalOscillator",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "item": "BP_EquipmentDescriptorBeacon",
+          "amount": 20
+        }
+      ],
+      "produced_in": [
+        "Manufacturer"
+      ],
+      "duration": 120.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Crystal Computer",
+      "class_name": "Recipe_Alternateomputer_2",
+      "ingredients": [
+        {
+          "item": "DescircuitBoard",
+          "amount": 8
+        },
+        {
+          "item": "DescrystalOscillator",
+          "amount": 3
+        }
+      ],
+      "products": [
+        {
+          "item": "Descomputer",
+          "amount": 3
+        }
+      ],
+      "produced_in": [
+        "Assembler"
+      ],
+      "duration": 64.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Diluted Fuel",
+      "class_name": "Recipe_Alternate_DilutedFuel",
+      "ingredients": [
+        {
+          "item": "Desc_HeavyOilResidue",
+          "amount": 5000
+        },
+        {
+          "item": "Desc_Water",
+          "amount": 10000
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_LiquidFuel",
+          "amount": 10000
+        }
+      ],
+      "produced_in": [
+        "Blender"
+      ],
+      "duration": 6.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Diluted Packaged Fuel",
+      "class_name": "Recipe_Alternate_DilutedPackagedFuel",
+      "ingredients": [
+        {
+          "item": "Desc_HeavyOilResidue",
+          "amount": 1000
+        },
+        {
+          "item": "Desc_PackagedWater",
+          "amount": 2
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_Fuel",
+          "amount": 2
+        }
+      ],
+      "produced_in": [
+        "Refinery"
+      ],
+      "duration": 2.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Electric Motor",
+      "class_name": "Recipe_Alternate_ElectricMotor",
+      "ingredients": [
+        {
+          "item": "Desc_ElectromagneticControlRod",
+          "amount": 1
+        },
+        {
+          "item": "Desc_Rotor",
+          "amount": 2
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_Motor",
+          "amount": 2
+        }
+      ],
+      "produced_in": [
+        "Assembler"
+      ],
+      "duration": 16.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Electrode Aluminum Scrap",
+      "class_name": "Recipe_Alternate_ElectroAluminumScrap",
+      "ingredients": [
+        {
+          "item": "Desc_AluminaSolution",
+          "amount": 12000
+        },
+        {
+          "item": "Desc_PetroleumCoke",
+          "amount": 4
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_AluminumScrap",
+          "amount": 20
+        },
+        {
+          "item": "Desc_Water",
+          "amount": 7000
+        }
+      ],
+      "produced_in": [
+        "Refinery"
+      ],
+      "duration": 4.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Electrode Circuit Board",
+      "class_name": "Recipe_Alternate_ElectrodeCircuitBoard",
+      "ingredients": [
+        {
+          "item": "Desc_Rubber",
+          "amount": 6
+        },
+        {
+          "item": "Desc_PetroleumCoke",
+          "amount": 9
+        }
+      ],
+      "products": [
+        {
+          "item": "DescircuitBoard",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "Assembler"
+      ],
+      "duration": 12.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Electromagnetic Connection Rod",
+      "class_name": "Recipe_Alternate_ElectromagneticControlRod_1",
+      "ingredients": [
+        {
+          "item": "Desc_Stator",
+          "amount": 2
+        },
+        {
+          "item": "Desc_HighSpeedConnector",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_ElectromagneticControlRod",
+          "amount": 2
+        }
+      ],
+      "produced_in": [
+        "Assembler"
+      ],
+      "duration": 15.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Encased Industrial Pipe",
+      "class_name": "Recipe_Alternate_EncasedIndustrialBeam",
+      "ingredients": [
+        {
+          "item": "Desc_SteelPipe",
+          "amount": 7
+        },
+        {
+          "item": "Descement",
+          "amount": 5
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_SteelPlateReinforced",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "Assembler"
+      ],
+      "duration": 15.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Fertile Uranium",
+      "class_name": "Recipe_Alternate_FertileUranium",
+      "ingredients": [
+        {
+          "item": "Desc_OreUranium",
+          "amount": 5
+        },
+        {
+          "item": "Desc_NuclearWaste",
+          "amount": 5
+        },
+        {
+          "item": "Desc_NitricAcid",
+          "amount": 3000
+        },
+        {
+          "item": "Desc_SulfuricAcid",
+          "amount": 5000
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_NonFissibleUranium",
+          "amount": 20
+        },
+        {
+          "item": "Desc_Water",
+          "amount": 8000
+        }
+      ],
+      "produced_in": [
+        "Blender"
+      ],
+      "duration": 12.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Fine Black Powder",
+      "class_name": "Recipe_Alternate_Gunpowder_1",
+      "ingredients": [
+        {
+          "item": "Desc_Sulfur",
+          "amount": 2
+        },
+        {
+          "item": "DescompactedCoal",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_Gunpowder",
+          "amount": 4
+        }
+      ],
+      "produced_in": [
+        "Assembler"
+      ],
+      "duration": 16.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Fine Concrete",
+      "class_name": "Recipe_Alternateoncrete",
+      "ingredients": [
+        {
+          "item": "Desc_Silica",
+          "amount": 3
+        },
+        {
+          "item": "Desc_Stone",
+          "amount": 12
+        }
+      ],
+      "products": [
+        {
+          "item": "Descement",
+          "amount": 10
+        }
+      ],
+      "produced_in": [
+        "Assembler"
+      ],
+      "duration": 24.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Flexible Framework",
+      "class_name": "Recipe_Alternate_FlexibleFramework",
+      "ingredients": [
+        {
+          "item": "Desc_ModularFrame",
+          "amount": 1
+        },
+        {
+          "item": "Desc_SteelPlate",
+          "amount": 6
+        },
+        {
+          "item": "Desc_Rubber",
+          "amount": 8
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_SpaceElevatorPart_2",
+          "amount": 2
+        }
+      ],
+      "produced_in": [
+        "Manufacturer"
+      ],
+      "duration": 16.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Fused Quickwire",
+      "class_name": "Recipe_Alternate_Quickwire",
+      "ingredients": [
+        {
+          "item": "Desc_GoldIngot",
+          "amount": 1
+        },
+        {
+          "item": "DescopperIngot",
+          "amount": 5
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_HighSpeedWire",
+          "amount": 12
+        }
+      ],
+      "produced_in": [
+        "Assembler"
+      ],
+      "duration": 8.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Fused Wire",
+      "class_name": "Recipe_Alternate_FusedWire",
+      "ingredients": [
+        {
+          "item": "DescopperIngot",
+          "amount": 4
+        },
+        {
+          "item": "Desc_GoldIngot",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_Wire",
+          "amount": 30
+        }
+      ],
+      "produced_in": [
+        "Assembler"
+      ],
+      "duration": 20.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Heat Exchanger",
+      "class_name": "Recipe_Alternate_HeatSink_1",
+      "ingredients": [
+        {
+          "item": "Desc_AluminumCasing",
+          "amount": 3
+        },
+        {
+          "item": "Desc_Rubber",
+          "amount": 3
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_AluminumPlateReinforced",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "Assembler"
+      ],
+      "duration": 6.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Heat-Fused Frame",
+      "class_name": "Recipe_Alternate_HeatFusedFrame",
+      "ingredients": [
+        {
+          "item": "Desc_ModularFrameHeavy",
+          "amount": 1
+        },
+        {
+          "item": "Desc_AluminumIngot",
+          "amount": 50
+        },
+        {
+          "item": "Desc_NitricAcid",
+          "amount": 8000
+        },
+        {
+          "item": "Desc_LiquidFuel",
+          "amount": 10000
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_ModularFrameFused",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "Blender"
+      ],
+      "duration": 20.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Heavy Encased Frame",
+      "class_name": "Recipe_Alternate_ModularFrameHeavy",
+      "ingredients": [
+        {
+          "item": "Desc_ModularFrame",
+          "amount": 8
+        },
+        {
+          "item": "Desc_SteelPlateReinforced",
+          "amount": 10
+        },
+        {
+          "item": "Desc_SteelPipe",
+          "amount": 36
+        },
+        {
+          "item": "Descement",
+          "amount": 22
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_ModularFrameHeavy",
+          "amount": 3
+        }
+      ],
+      "produced_in": [
+        "Manufacturer"
+      ],
+      "duration": 64.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Heavy Flexible Frame",
+      "class_name": "Recipe_Alternate_HeavyFlexibleFrame",
+      "ingredients": [
+        {
+          "item": "Desc_ModularFrame",
+          "amount": 5
+        },
+        {
+          "item": "Desc_SteelPlateReinforced",
+          "amount": 3
+        },
+        {
+          "item": "Desc_Rubber",
+          "amount": 20
+        },
+        {
+          "item": "Desc_IronScrew",
+          "amount": 104
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_ModularFrameHeavy",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "Manufacturer"
+      ],
+      "duration": 16.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Heavy Oil Residue",
+      "class_name": "Recipe_Alternate_HeavyOilResidue",
+      "ingredients": [
+        {
+          "item": "Desc_LiquidOil",
+          "amount": 3000
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_HeavyOilResidue",
+          "amount": 4000
+        },
+        {
+          "item": "Desc_PolymerResin",
+          "amount": 2
+        }
+      ],
+      "produced_in": [
+        "Refinery"
+      ],
+      "duration": 6.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Infused Uranium Cell",
+      "class_name": "Recipe_Alternate_UraniumCell_1",
+      "ingredients": [
+        {
+          "item": "Desc_OreUranium",
+          "amount": 5
+        },
+        {
+          "item": "Desc_Silica",
+          "amount": 3
+        },
+        {
+          "item": "Desc_Sulfur",
+          "amount": 5
+        },
+        {
+          "item": "Desc_HighSpeedWire",
+          "amount": 15
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_UraniumCell",
+          "amount": 4
+        }
+      ],
+      "produced_in": [
+        "Manufacturer"
+      ],
+      "duration": 12.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Instant Plutonium Cell",
+      "class_name": "Recipe_Alternate_InstantPlutoniumCell",
+      "ingredients": [
+        {
+          "item": "Desc_NonFissibleUranium",
+          "amount": 150
+        },
+        {
+          "item": "Desc_AluminumCasing",
+          "amount": 20
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_PlutoniumCell",
+          "amount": 20
+        }
+      ],
+      "produced_in": [
+        "Particle Accelerator"
+      ],
+      "duration": 120.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Instant Scrap",
+      "class_name": "Recipe_Alternate_InstantScrap",
+      "ingredients": [
+        {
+          "item": "Desc_OreBauxite",
+          "amount": 15
+        },
+        {
+          "item": "Descoal",
+          "amount": 10
+        },
+        {
+          "item": "Desc_SulfuricAcid",
+          "amount": 5000
+        },
+        {
+          "item": "Desc_Water",
+          "amount": 6000
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_AluminumScrap",
+          "amount": 30
+        },
+        {
+          "item": "Desc_Water",
+          "amount": 5000
+        }
+      ],
+      "produced_in": [
+        "Blender"
+      ],
+      "duration": 6.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Insulated Cable",
+      "class_name": "Recipe_Alternateable_1",
+      "ingredients": [
+        {
+          "item": "Desc_Wire",
+          "amount": 9
+        },
+        {
+          "item": "Desc_Rubber",
+          "amount": 6
+        }
+      ],
+      "products": [
+        {
+          "item": "Descable",
+          "amount": 20
+        }
+      ],
+      "produced_in": [
+        "Assembler"
+      ],
+      "duration": 12.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Insulated Crystal Oscillator",
+      "class_name": "Recipe_AlternaterystalOscillator",
+      "ingredients": [
+        {
+          "item": "Desc_QuartzCrystal",
+          "amount": 10
+        },
+        {
+          "item": "Desc_Rubber",
+          "amount": 7
+        },
+        {
+          "item": "DescircuitBoardHighSpeed",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "item": "DescrystalOscillator",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "Manufacturer"
+      ],
+      "duration": 32.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Iron Alloy Ingot",
+      "class_name": "Recipe_Alternate_IngotIron",
+      "ingredients": [
+        {
+          "item": "Desc_OreIron",
+          "amount": 2
+        },
+        {
+          "item": "Desc_OreCopper",
+          "amount": 2
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_IronIngot",
+          "amount": 5
+        }
+      ],
+      "produced_in": [
+        "Foundry"
+      ],
+      "duration": 6.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Iron Wire",
+      "class_name": "Recipe_Alternate_Wire_1",
+      "ingredients": [
+        {
+          "item": "Desc_IronIngot",
+          "amount": 5
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_Wire",
+          "amount": 9
+        }
+      ],
+      "produced_in": [
+        "Constructor"
+      ],
+      "duration": 24.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Iron Wire",
+      "class_name": "Recipe_SpaceElevatorPart_2",
+      "ingredients": [
+        {
+          "item": "Desc_ModularFrame",
+          "amount": 1
+        },
+        {
+          "item": "Desc_SteelPlate",
+          "amount": 12
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_SpaceElevatorPart_2",
+          "amount": 2
+        }
+      ],
+      "produced_in": [
+        "Assembler"
+      ],
+      "duration": 24.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Iron Wire",
+      "class_name": "Recipe_SpaceElevatorPart_3",
+      "ingredients": [
+        {
+          "item": "Desc_Stator",
+          "amount": 1
+        },
+        {
+          "item": "Descable",
+          "amount": 20
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_SpaceElevatorPart_3",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "Assembler"
+      ],
+      "duration": 24.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Iron Wire",
+      "class_name": "Recipe_SpaceElevatorPart_6",
+      "ingredients": [
+        {
+          "item": "Desc_SpaceElevatorPart_2",
+          "amount": 5
+        },
+        {
+          "item": "Desc_ElectromagneticControlRod",
+          "amount": 2
+        },
+        {
+          "item": "Desc_Battery",
+          "amount": 10
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_SpaceElevatorPart_6",
+          "amount": 2
+        }
+      ],
+      "produced_in": [
+        "Manufacturer"
+      ],
+      "duration": 120.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Iron Wire",
+      "class_name": "Recipe_SpaceElevatorPart_8",
+      "ingredients": [
+        {
+          "item": "Desc_SpaceElevatorPart_4",
+          "amount": 5
+        },
+        {
+          "item": "Desc_MotorLightweight",
+          "amount": 2
+        },
+        {
+          "item": "DescoolingSystem",
+          "amount": 6
+        },
+        {
+          "item": "Desc_ModularFrameFused",
+          "amount": 2
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_SpaceElevatorPart_8",
+          "amount": 2
+        }
+      ],
+      "produced_in": [
+        "Manufacturer"
+      ],
+      "duration": 120.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Iron Wire",
+      "class_name": "Recipe_SpaceElevatorPart_4",
+      "ingredients": [
+        {
+          "item": "Desc_Motor",
+          "amount": 2
+        },
+        {
+          "item": "Desc_Rubber",
+          "amount": 15
+        },
+        {
+          "item": "Desc_SpaceElevatorPart_1",
+          "amount": 2
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_SpaceElevatorPart_4",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "Manufacturer"
+      ],
+      "duration": 60.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Iron Wire",
+      "class_name": "Recipe_SpaceElevatorPart_5",
+      "ingredients": [
+        {
+          "item": "Desc_SpaceElevatorPart_3",
+          "amount": 15
+        },
+        {
+          "item": "DescircuitBoard",
+          "amount": 10
+        },
+        {
+          "item": "Desc_ModularFrameHeavy",
+          "amount": 2
+        },
+        {
+          "item": "Descomputer",
+          "amount": 2
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_SpaceElevatorPart_5",
+          "amount": 2
+        }
+      ],
+      "produced_in": [
+        "Manufacturer"
+      ],
+      "duration": 120.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Iron Wire",
+      "class_name": "Recipe_SpaceElevatorPart_1",
+      "ingredients": [
+        {
+          "item": "Desc_IronPlateReinforced",
+          "amount": 1
+        },
+        {
+          "item": "Desc_Rotor",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_SpaceElevatorPart_1",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "Assembler"
+      ],
+      "duration": 30.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: OC Supercomputer",
+      "class_name": "Recipe_Alternate_OCSupercomputer",
+      "ingredients": [
+        {
+          "item": "Desc_ModularFrameLightweight",
+          "amount": 3
+        },
+        {
+          "item": "DescoolingSystem",
+          "amount": 3
+        }
+      ],
+      "products": [
+        {
+          "item": "DescomputerSuper",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "Assembler"
+      ],
+      "duration": 20.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Plastic Smart Plating",
+      "class_name": "Recipe_Alternate_PlasticSmartPlating",
+      "ingredients": [
+        {
+          "item": "Desc_IronPlateReinforced",
+          "amount": 1
+        },
+        {
+          "item": "Desc_Rotor",
+          "amount": 1
+        },
+        {
+          "item": "Desc_Plastic",
+          "amount": 3
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_SpaceElevatorPart_1",
+          "amount": 2
+        }
+      ],
+      "produced_in": [
+        "Manufacturer"
+      ],
+      "duration": 24.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Plutonium Fuel Unit",
+      "class_name": "Recipe_Alternate_PlutoniumFuelUnit",
+      "ingredients": [
+        {
+          "item": "Desc_PlutoniumCell",
+          "amount": 20
+        },
+        {
+          "item": "Desc_PressureConversionCube",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_PlutoniumFuelRod",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "Assembler"
+      ],
+      "duration": 120.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Polyester Fabric",
+      "class_name": "Recipe_Alternate_PolyesterFabric",
+      "ingredients": [
+        {
+          "item": "Desc_PolymerResin",
+          "amount": 1
+        },
+        {
+          "item": "Desc_Water",
+          "amount": 1000
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_Fabric",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "Refinery"
+      ],
+      "duration": 2.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Polymer Resin",
+      "class_name": "Recipe_Alternate_PolymerResin",
+      "ingredients": [
+        {
+          "item": "Desc_LiquidOil",
+          "amount": 6000
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_PolymerResin",
+          "amount": 13
+        },
+        {
+          "item": "Desc_HeavyOilResidue",
+          "amount": 2000
+        }
+      ],
+      "produced_in": [
+        "Refinery"
+      ],
+      "duration": 6.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Pure Aluminum Ingot",
+      "class_name": "Recipe_PureAluminumIngot",
+      "ingredients": [
+        {
+          "item": "Desc_AluminumScrap",
+          "amount": 2
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_AluminumIngot",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "Smelter"
+      ],
+      "duration": 2.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Pure Caterium Ingot",
+      "class_name": "Recipe_Alternate_PureCateriumIngot",
+      "ingredients": [
+        {
+          "item": "Desc_OreGold",
+          "amount": 2
+        },
+        {
+          "item": "Desc_Water",
+          "amount": 2000
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_GoldIngot",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "Refinery"
+      ],
+      "duration": 5.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Pure Copper Ingot",
+      "class_name": "Recipe_Alternate_PureCopperIngot",
+      "ingredients": [
+        {
+          "item": "Desc_OreCopper",
+          "amount": 6
+        },
+        {
+          "item": "Desc_Water",
+          "amount": 4000
+        }
+      ],
+      "products": [
+        {
+          "item": "DescopperIngot",
+          "amount": 15
+        }
+      ],
+      "produced_in": [
+        "Refinery"
+      ],
+      "duration": 24.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Pure Iron Ingot",
+      "class_name": "Recipe_Alternate_PureIronIngot",
+      "ingredients": [
+        {
+          "item": "Desc_OreIron",
+          "amount": 7
+        },
+        {
+          "item": "Desc_Water",
+          "amount": 4000
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_IronIngot",
+          "amount": 13
+        }
+      ],
+      "produced_in": [
+        "Refinery"
+      ],
+      "duration": 12.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Pure Quartz Crystal",
+      "class_name": "Recipe_Alternate_PureQuartzCrystal",
+      "ingredients": [
+        {
+          "item": "Desc_RawQuartz",
+          "amount": 9
+        },
+        {
+          "item": "Desc_Water",
+          "amount": 5000
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_QuartzCrystal",
+          "amount": 7
+        }
+      ],
+      "produced_in": [
+        "Refinery"
+      ],
+      "duration": 8.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Quickwire Cable",
+      "class_name": "Recipe_Alternateable_2",
+      "ingredients": [
+        {
+          "item": "Desc_HighSpeedWire",
+          "amount": 3
+        },
+        {
+          "item": "Desc_Rubber",
+          "amount": 2
+        }
+      ],
+      "products": [
+        {
+          "item": "Descable",
+          "amount": 11
+        }
+      ],
+      "produced_in": [
+        "Assembler"
+      ],
+      "duration": 24.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Quickwire Stator",
+      "class_name": "Recipe_Alternate_Stator",
+      "ingredients": [
+        {
+          "item": "Desc_SteelPipe",
+          "amount": 4
+        },
+        {
+          "item": "Desc_HighSpeedWire",
+          "amount": 15
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_Stator",
+          "amount": 2
+        }
+      ],
+      "produced_in": [
+        "Assembler"
+      ],
+      "duration": 15.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Radio Connection Unit",
+      "class_name": "Recipe_Alternate_RadioControlUnit_1",
+      "ingredients": [
+        {
+          "item": "Desc_AluminumPlateReinforced",
+          "amount": 4
+        },
+        {
+          "item": "Desc_HighSpeedConnector",
+          "amount": 2
+        },
+        {
+          "item": "Desc_QuartzCrystal",
+          "amount": 12
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_ModularFrameLightweight",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "Manufacturer"
+      ],
+      "duration": 16.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Radio Control System",
+      "class_name": "Recipe_Alternate_RadioControlSystem",
+      "ingredients": [
+        {
+          "item": "DescrystalOscillator",
+          "amount": 1
+        },
+        {
+          "item": "DescircuitBoard",
+          "amount": 10
+        },
+        {
+          "item": "Desc_AluminumCasing",
+          "amount": 60
+        },
+        {
+          "item": "Desc_Rubber",
+          "amount": 30
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_ModularFrameLightweight",
+          "amount": 3
+        }
+      ],
+      "produced_in": [
+        "Manufacturer"
+      ],
+      "duration": 40.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Recycled Plastic",
+      "class_name": "Recipe_Alternate_Plastic_1",
+      "ingredients": [
+        {
+          "item": "Desc_Rubber",
+          "amount": 6
+        },
+        {
+          "item": "Desc_LiquidFuel",
+          "amount": 6000
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_Plastic",
+          "amount": 12
+        }
+      ],
+      "produced_in": [
+        "Refinery"
+      ],
+      "duration": 12.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Recycled Rubber",
+      "class_name": "Recipe_Alternate_RecycledRubber",
+      "ingredients": [
+        {
+          "item": "Desc_Plastic",
+          "amount": 6
+        },
+        {
+          "item": "Desc_LiquidFuel",
+          "amount": 6000
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_Rubber",
+          "amount": 12
+        }
+      ],
+      "produced_in": [
+        "Refinery"
+      ],
+      "duration": 12.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Rigour Motor",
+      "class_name": "Recipe_Alternate_Motor_1",
+      "ingredients": [
+        {
+          "item": "Desc_Rotor",
+          "amount": 3
+        },
+        {
+          "item": "Desc_Stator",
+          "amount": 3
+        },
+        {
+          "item": "DescrystalOscillator",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_Motor",
+          "amount": 6
+        }
+      ],
+      "produced_in": [
+        "Manufacturer"
+      ],
+      "duration": 48.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Rubber Concrete",
+      "class_name": "Recipe_Alternate_RubberConcrete",
+      "ingredients": [
+        {
+          "item": "Desc_Stone",
+          "amount": 10
+        },
+        {
+          "item": "Desc_Rubber",
+          "amount": 2
+        }
+      ],
+      "products": [
+        {
+          "item": "Descement",
+          "amount": 9
+        }
+      ],
+      "produced_in": [
+        "Assembler"
+      ],
+      "duration": 12.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Silicon Circuit Board",
+      "class_name": "Recipe_AlternateircuitBoard_1",
+      "ingredients": [
+        {
+          "item": "DescopperSheet",
+          "amount": 11
+        },
+        {
+          "item": "Desc_Silica",
+          "amount": 11
+        }
+      ],
+      "products": [
+        {
+          "item": "DescircuitBoard",
+          "amount": 5
+        }
+      ],
+      "produced_in": [
+        "Assembler"
+      ],
+      "duration": 24.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Silicon High-Speed Connector",
+      "class_name": "Recipe_Alternate_HighSpeedConnector",
+      "ingredients": [
+        {
+          "item": "Desc_HighSpeedWire",
+          "amount": 60
+        },
+        {
+          "item": "Desc_Silica",
+          "amount": 25
+        },
+        {
+          "item": "DescircuitBoard",
+          "amount": 2
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_HighSpeedConnector",
+          "amount": 2
+        }
+      ],
+      "produced_in": [
+        "Manufacturer"
+      ],
+      "duration": 40.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Sloppy Alumina",
+      "class_name": "Recipe_Alternate_SloppyAlumina",
+      "ingredients": [
+        {
+          "item": "Desc_OreBauxite",
+          "amount": 10
+        },
+        {
+          "item": "Desc_Water",
+          "amount": 10000
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_AluminaSolution",
+          "amount": 12000
+        }
+      ],
+      "produced_in": [
+        "Refinery"
+      ],
+      "duration": 3.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Solid Steel Ingot",
+      "class_name": "Recipe_Alternate_IngotSteel_1",
+      "ingredients": [
+        {
+          "item": "Desc_IronIngot",
+          "amount": 2
+        },
+        {
+          "item": "Descoal",
+          "amount": 2
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_SteelIngot",
+          "amount": 3
+        }
+      ],
+      "produced_in": [
+        "Foundry"
+      ],
+      "duration": 3.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Steamed Copper Sheet",
+      "class_name": "Recipe_Alternate_SteamedCopperSheet",
+      "ingredients": [
+        {
+          "item": "DescopperIngot",
+          "amount": 3
+        },
+        {
+          "item": "Desc_Water",
+          "amount": 3000
+        }
+      ],
+      "products": [
+        {
+          "item": "DescopperSheet",
+          "amount": 3
+        }
+      ],
+      "produced_in": [
+        "Refinery"
+      ],
+      "duration": 8.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Steel Canister",
+      "class_name": "Recipe_Alternate_SteelCanister",
+      "ingredients": [
+        {
+          "item": "Desc_SteelIngot",
+          "amount": 3
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_FluidCanister",
+          "amount": 2
+        }
+      ],
+      "produced_in": [
+        "Constructor"
+      ],
+      "duration": 3.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Steel Coated Plate",
+      "class_name": "Recipe_Alternate_SteelCoatedPlate",
+      "ingredients": [
+        {
+          "item": "Desc_SteelIngot",
+          "amount": 3
+        },
+        {
+          "item": "Desc_Plastic",
+          "amount": 2
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_IronPlate",
+          "amount": 18
+        }
+      ],
+      "produced_in": [
+        "Assembler"
+      ],
+      "duration": 24.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Steel Rod",
+      "class_name": "Recipe_Alternate_SteelRod",
+      "ingredients": [
+        {
+          "item": "Desc_SteelIngot",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_IronRod",
+          "amount": 4
+        }
+      ],
+      "produced_in": [
+        "Constructor"
+      ],
+      "duration": 5.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Steel Rotor",
+      "class_name": "Recipe_Alternate_Rotor",
+      "ingredients": [
+        {
+          "item": "Desc_SteelPipe",
+          "amount": 2
+        },
+        {
+          "item": "Desc_Wire",
+          "amount": 6
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_Rotor",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "Assembler"
+      ],
+      "duration": 12.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Steel Screw",
+      "class_name": "Recipe_Alternate_Screw_2",
+      "ingredients": [
+        {
+          "item": "Desc_SteelPlate",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_IronScrew",
+          "amount": 52
+        }
+      ],
+      "produced_in": [
+        "Constructor"
+      ],
+      "duration": 12.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Steeled Frame",
+      "class_name": "Recipe_Alternate_ModularFrame",
+      "ingredients": [
+        {
+          "item": "Desc_IronPlateReinforced",
+          "amount": 2
+        },
+        {
+          "item": "Desc_SteelPipe",
+          "amount": 10
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_ModularFrame",
+          "amount": 3
+        }
+      ],
+      "produced_in": [
+        "Assembler"
+      ],
+      "duration": 60.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Stitched Iron Plate",
+      "class_name": "Recipe_Alternate_ReinforcedIronPlate_2",
+      "ingredients": [
+        {
+          "item": "Desc_IronPlate",
+          "amount": 10
+        },
+        {
+          "item": "Desc_Wire",
+          "amount": 20
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_IronPlateReinforced",
+          "amount": 3
+        }
+      ],
+      "produced_in": [
+        "Assembler"
+      ],
+      "duration": 32.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Super-State Computer",
+      "class_name": "Recipe_Alternate_SuperStateComputer",
+      "ingredients": [
+        {
+          "item": "Descomputer",
+          "amount": 3
+        },
+        {
+          "item": "Desc_ElectromagneticControlRod",
+          "amount": 2
+        },
+        {
+          "item": "Desc_Battery",
+          "amount": 20
+        },
+        {
+          "item": "Desc_Wire",
+          "amount": 45
+        }
+      ],
+      "products": [
+        {
+          "item": "DescomputerSuper",
+          "amount": 2
+        }
+      ],
+      "produced_in": [
+        "Manufacturer"
+      ],
+      "duration": 50.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Turbo Blend Fuel",
+      "class_name": "Recipe_Alternate_TurboBlendFuel",
+      "ingredients": [
+        {
+          "item": "Desc_LiquidFuel",
+          "amount": 2000
+        },
+        {
+          "item": "Desc_HeavyOilResidue",
+          "amount": 4000
+        },
+        {
+          "item": "Desc_Sulfur",
+          "amount": 3
+        },
+        {
+          "item": "Desc_PetroleumCoke",
+          "amount": 3
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_LiquidTurboFuel",
+          "amount": 6000
+        }
+      ],
+      "produced_in": [
+        "Blender"
+      ],
+      "duration": 8.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Turbo Electric Motor",
+      "class_name": "Recipe_Alternate_TurboMotor_1",
+      "ingredients": [
+        {
+          "item": "Desc_Motor",
+          "amount": 7
+        },
+        {
+          "item": "Desc_ModularFrameLightweight",
+          "amount": 9
+        },
+        {
+          "item": "Desc_ElectromagneticControlRod",
+          "amount": 5
+        },
+        {
+          "item": "Desc_Rotor",
+          "amount": 7
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_MotorLightweight",
+          "amount": 3
+        }
+      ],
+      "produced_in": [
+        "Manufacturer"
+      ],
+      "duration": 64.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Turbo Heavy Fuel",
+      "class_name": "Recipe_Alternate_TurboHeavyFuel",
+      "ingredients": [
+        {
+          "item": "Desc_HeavyOilResidue",
+          "amount": 5000
+        },
+        {
+          "item": "DescompactedCoal",
+          "amount": 4
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_LiquidTurboFuel",
+          "amount": 4000
+        }
+      ],
+      "produced_in": [
+        "Refinery"
+      ],
+      "duration": 8.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Turbo Pressure Motor",
+      "class_name": "Recipe_Alternate_TurboPressureMotor",
+      "ingredients": [
+        {
+          "item": "Desc_Motor",
+          "amount": 4
+        },
+        {
+          "item": "Desc_PressureConversionCube",
+          "amount": 1
+        },
+        {
+          "item": "Desc_PackagedNitrogenGas",
+          "amount": 24
+        },
+        {
+          "item": "Desc_Stator",
+          "amount": 8
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_MotorLightweight",
+          "amount": 2
+        }
+      ],
+      "produced_in": [
+        "Manufacturer"
+      ],
+      "duration": 32.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Uranium Fuel Unit",
+      "class_name": "Recipe_Alternate_NuclearFuelRod_1",
+      "ingredients": [
+        {
+          "item": "Desc_UraniumCell",
+          "amount": 100
+        },
+        {
+          "item": "Desc_ElectromagneticControlRod",
+          "amount": 10
+        },
+        {
+          "item": "DescrystalOscillator",
+          "amount": 3
+        },
+        {
+          "item": "BP_EquipmentDescriptorBeacon",
+          "amount": 6
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_NuclearFuelRod",
+          "amount": 3
+        }
+      ],
+      "produced_in": [
+        "Manufacturer"
+      ],
+      "duration": 300.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Alternate: Wet Concrete",
+      "class_name": "Recipe_Alternate_WetConcrete",
+      "ingredients": [
+        {
+          "item": "Desc_Stone",
+          "amount": 6
+        },
+        {
+          "item": "Desc_Water",
+          "amount": 5000
+        }
+      ],
+      "products": [
+        {
+          "item": "Descement",
+          "amount": 4
+        }
+      ],
+      "produced_in": [
+        "Refinery"
+      ],
+      "duration": 3.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Battery",
+      "class_name": "Recipe_Battery",
+      "ingredients": [
+        {
+          "item": "Desc_SulfuricAcid",
+          "amount": 2500
+        },
+        {
+          "item": "Desc_AluminaSolution",
+          "amount": 2000
+        },
+        {
+          "item": "Desc_AluminumCasing",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_Battery",
+          "amount": 1
+        },
+        {
+          "item": "Desc_Water",
+          "amount": 1500
+        }
+      ],
+      "produced_in": [
+        "Blender"
+      ],
+      "duration": 3.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Beacon",
+      "class_name": "Recipe_Beacon",
+      "ingredients": [
+        {
+          "item": "Desc_IronPlate",
+          "amount": 3
+        },
+        {
+          "item": "Desc_IronRod",
+          "amount": 1
+        },
+        {
+          "item": "Desc_Wire",
+          "amount": 15
+        },
+        {
+          "item": "Descable",
+          "amount": 2
+        }
+      ],
+      "products": [
+        {
+          "item": "BP_EquipmentDescriptorBeacon",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "BP_WorkshopComponent",
+        "Manufacturer"
+      ],
+      "duration": 8.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Cluster Nobelisk",
+      "class_name": "Recipe_NobeliskCluster",
+      "ingredients": [
+        {
+          "item": "Desc_NobeliskExplosive",
+          "amount": 3
+        },
+        {
+          "item": "Desc_GunpowderMK2",
+          "amount": 4
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_NobeliskCluster",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "BP_WorkshopComponent",
+        "Assembler"
+      ],
+      "duration": 24.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Dark Matter",
+      "class_name": "Recipe_SpaceElevatorPart_9",
+      "ingredients": [
+        {
+          "item": "DescopperDust",
+          "amount": 200
+        },
+        {
+          "item": "Desc_PressureConversionCube",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_SpaceElevatorPart_9",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "Particle Accelerator"
+      ],
+      "duration": 120.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Dark Matter",
+      "class_name": "Recipe_Plutonium",
+      "ingredients": [
+        {
+          "item": "Desc_NonFissibleUranium",
+          "amount": 100
+        },
+        {
+          "item": "Desc_NuclearWaste",
+          "amount": 25
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_PlutoniumPellet",
+          "amount": 30
+        }
+      ],
+      "produced_in": [
+        "Particle Accelerator"
+      ],
+      "duration": 60.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Expanded Storage Container",
+      "class_name": "Recipe_StorageIntegrated",
+      "ingredients": [],
+      "products": [
+        {
+          "item": "Desc_StorageIntegrated",
+          "amount": 1
+        }
+      ],
+      "produced_in": [],
+      "duration": 1,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Expanded Storage Container",
+      "class_name": "Recipe_StorageBlueprint",
+      "ingredients": [],
+      "products": [
+        {
+          "item": "Desc_StorageBlueprint",
+          "amount": 1
+        }
+      ],
+      "produced_in": [],
+      "duration": 1,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Factory Cart™",
+      "class_name": "Recipe_FactoryCart",
+      "ingredients": [
+        {
+          "item": "Desc_IronPlateReinforced",
+          "amount": 4
+        },
+        {
+          "item": "Desc_IronRod",
+          "amount": 4
+        },
+        {
+          "item": "Desc_Rotor",
+          "amount": 2
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_GolfCart",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "BP_WorkshopComponent"
+      ],
+      "duration": 20.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Filter",
+      "class_name": "Recipe_FilterHazmat",
+      "ingredients": [
+        {
+          "item": "Desc_Filter",
+          "amount": 1
+        },
+        {
+          "item": "Desc_HighSpeedWire",
+          "amount": 8
+        },
+        {
+          "item": "Desc_AluminumCasing",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_HazmatFilter",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "Manufacturer",
+        "BP_WorkshopComponent"
+      ],
+      "duration": 16.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Filter",
+      "class_name": "Recipe_FilterGasMask",
+      "ingredients": [
+        {
+          "item": "Descoal",
+          "amount": 5
+        },
+        {
+          "item": "Desc_Rubber",
+          "amount": 2
+        },
+        {
+          "item": "Desc_Fabric",
+          "amount": 2
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_Filter",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "Manufacturer",
+        "BP_WorkshopComponent"
+      ],
+      "duration": 8.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Fireworks Baby!",
+      "class_name": "Recipe_Fireworks_03",
+      "ingredients": [
+        {
+          "item": "Desc_XmasBranch",
+          "amount": 3
+        },
+        {
+          "item": "Desc_Snow",
+          "amount": 2
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_Fireworks_Projectile_03",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "BP_WorkshopComponent",
+        "Assembler"
+      ],
+      "duration": 24.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Fireworks Baby!",
+      "class_name": "Recipe_Fireworks_02",
+      "ingredients": [
+        {
+          "item": "Desc_XmasBranch",
+          "amount": 4
+        },
+        {
+          "item": "Desc_XmasBow",
+          "amount": 3
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_Fireworks_Projectile_02",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "BP_WorkshopComponent",
+        "Assembler"
+      ],
+      "duration": 24.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Fireworks Baby!",
+      "class_name": "Recipe_Fireworks_01",
+      "ingredients": [
+        {
+          "item": "Desc_XmasBranch",
+          "amount": 6
+        },
+        {
+          "item": "DescandyCane",
+          "amount": 3
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_Fireworks_Projectile_01",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "BP_WorkshopComponent",
+        "Assembler"
+      ],
+      "duration": 24.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Foundation 1a",
+      "class_name": "Recipe_PillarTop",
+      "ingredients": [
+        {
+          "item": "Descement",
+          "amount": 6
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_PillarTop",
+          "amount": 1
+        }
+      ],
+      "produced_in": [],
+      "duration": 1,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Fuel",
+      "class_name": "Recipe_LiquidFuel",
+      "ingredients": [
+        {
+          "item": "Desc_LiquidOil",
+          "amount": 6000
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_LiquidFuel",
+          "amount": 4000
+        },
+        {
+          "item": "Desc_PolymerResin",
+          "amount": 3
+        }
+      ],
+      "produced_in": [
+        "Refinery"
+      ],
+      "duration": 6.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Fuel",
+      "class_name": "Recipe_SulfuricAcid",
+      "ingredients": [
+        {
+          "item": "Desc_Sulfur",
+          "amount": 5
+        },
+        {
+          "item": "Desc_Water",
+          "amount": 5000
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_SulfuricAcid",
+          "amount": 5000
+        }
+      ],
+      "produced_in": [
+        "Refinery"
+      ],
+      "duration": 6.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Fuel",
+      "class_name": "Recipe_AluminumScrap",
+      "ingredients": [
+        {
+          "item": "Desc_AluminaSolution",
+          "amount": 4000
+        },
+        {
+          "item": "Descoal",
+          "amount": 2
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_AluminumScrap",
+          "amount": 6
+        },
+        {
+          "item": "Desc_Water",
+          "amount": 2000
+        }
+      ],
+      "produced_in": [
+        "Refinery"
+      ],
+      "duration": 1,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Fuel",
+      "class_name": "Recipe_AluminaSolution",
+      "ingredients": [
+        {
+          "item": "Desc_OreBauxite",
+          "amount": 12
+        },
+        {
+          "item": "Desc_Water",
+          "amount": 18000
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_AluminaSolution",
+          "amount": 12000
+        },
+        {
+          "item": "Desc_Silica",
+          "amount": 5
+        }
+      ],
+      "produced_in": [
+        "Refinery"
+      ],
+      "duration": 6.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Fuel",
+      "class_name": "Recipe_PackagedWater",
+      "ingredients": [
+        {
+          "item": "Desc_Water",
+          "amount": 2000
+        },
+        {
+          "item": "Desc_FluidCanister",
+          "amount": 2
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_PackagedWater",
+          "amount": 2
+        }
+      ],
+      "produced_in": [
+        "Packager"
+      ],
+      "duration": 2.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Fuel",
+      "class_name": "Recipe_PackagedOilResidue",
+      "ingredients": [
+        {
+          "item": "Desc_HeavyOilResidue",
+          "amount": 2000
+        },
+        {
+          "item": "Desc_FluidCanister",
+          "amount": 2
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_PackagedOilResidue",
+          "amount": 2
+        }
+      ],
+      "produced_in": [
+        "Packager"
+      ],
+      "duration": 4.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Fuel",
+      "class_name": "Recipe_PackagedCrudeOil",
+      "ingredients": [
+        {
+          "item": "Desc_LiquidOil",
+          "amount": 2000
+        },
+        {
+          "item": "Desc_FluidCanister",
+          "amount": 2
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_PackagedOil",
+          "amount": 2
+        }
+      ],
+      "produced_in": [
+        "Packager"
+      ],
+      "duration": 4.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Fuel",
+      "class_name": "Recipe_PackagedBiofuel",
+      "ingredients": [
+        {
+          "item": "Desc_LiquidBiofuel",
+          "amount": 2000
+        },
+        {
+          "item": "Desc_FluidCanister",
+          "amount": 2
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_PackagedBiofuel",
+          "amount": 2
+        }
+      ],
+      "produced_in": [
+        "Packager"
+      ],
+      "duration": 3.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Fuel",
+      "class_name": "Recipe_LiquidBiofuel",
+      "ingredients": [
+        {
+          "item": "Desc_Biofuel",
+          "amount": 6
+        },
+        {
+          "item": "Desc_Water",
+          "amount": 3000
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_LiquidBiofuel",
+          "amount": 4000
+        }
+      ],
+      "produced_in": [
+        "Refinery"
+      ],
+      "duration": 4.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Fuel",
+      "class_name": "Recipe_Fuel",
+      "ingredients": [
+        {
+          "item": "Desc_LiquidFuel",
+          "amount": 2000
+        },
+        {
+          "item": "Desc_FluidCanister",
+          "amount": 2
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_Fuel",
+          "amount": 2
+        }
+      ],
+      "produced_in": [
+        "Packager"
+      ],
+      "duration": 3.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Fuel",
+      "class_name": "Recipe_PackagedNitricAcid",
+      "ingredients": [
+        {
+          "item": "Desc_NitricAcid",
+          "amount": 1000
+        },
+        {
+          "item": "Desc_GasTank",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_PackagedNitricAcid",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "Packager"
+      ],
+      "duration": 2.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Fuel",
+      "class_name": "Recipe_PackagedNitrogen",
+      "ingredients": [
+        {
+          "item": "Desc_NitrogenGas",
+          "amount": 4000
+        },
+        {
+          "item": "Desc_GasTank",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_PackagedNitrogenGas",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "Packager"
+      ],
+      "duration": 1,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Fuel",
+      "class_name": "Recipe_PackagedSulfuricAcid",
+      "ingredients": [
+        {
+          "item": "Desc_SulfuricAcid",
+          "amount": 2000
+        },
+        {
+          "item": "Desc_FluidCanister",
+          "amount": 2
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_PackagedSulfuricAcid",
+          "amount": 2
+        }
+      ],
+      "produced_in": [
+        "Packager"
+      ],
+      "duration": 3.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Fuel",
+      "class_name": "Recipe_PackagedAlumina",
+      "ingredients": [
+        {
+          "item": "Desc_AluminaSolution",
+          "amount": 2000
+        },
+        {
+          "item": "Desc_FluidCanister",
+          "amount": 2
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_PackagedAlumina",
+          "amount": 2
+        }
+      ],
+      "produced_in": [
+        "Packager"
+      ],
+      "duration": 1,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Gas Mask",
+      "class_name": "Recipe_HazmatSuit",
+      "ingredients": [
+        {
+          "item": "Desc_Rubber",
+          "amount": 50
+        },
+        {
+          "item": "Desc_Plastic",
+          "amount": 50
+        },
+        {
+          "item": "Desc_AluminumPlate",
+          "amount": 50
+        },
+        {
+          "item": "Desc_Fabric",
+          "amount": 50
+        }
+      ],
+      "products": [
+        {
+          "item": "BP_EquipmentDescriptorHazmatSuit",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "BP_WorkshopComponent"
+      ],
+      "duration": 120.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Gas Mask",
+      "class_name": "Recipe_Gasmask",
+      "ingredients": [
+        {
+          "item": "Desc_Rubber",
+          "amount": 100
+        },
+        {
+          "item": "Desc_Plastic",
+          "amount": 100
+        },
+        {
+          "item": "Desc_Fabric",
+          "amount": 100
+        }
+      ],
+      "products": [
+        {
+          "item": "BP_EquipmentDescriptorGasmask",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "BP_WorkshopComponent"
+      ],
+      "duration": 60.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Gas Nobelisk",
+      "class_name": "Recipe_NobeliskGas",
+      "ingredients": [
+        {
+          "item": "Desc_NobeliskExplosive",
+          "amount": 1
+        },
+        {
+          "item": "Desc_GenericBiomass",
+          "amount": 10
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_NobeliskGas",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "BP_WorkshopComponent",
+        "Assembler"
+      ],
+      "duration": 12.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Golden Factory Cart™",
+      "class_name": "Recipe_GoldenCart",
+      "ingredients": [
+        {
+          "item": "Desc_GoldIngot",
+          "amount": 15
+        },
+        {
+          "item": "Desc_IronRod",
+          "amount": 4
+        },
+        {
+          "item": "Desc_Rotor",
+          "amount": 2
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_GolfCartGold",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "BP_WorkshopComponent"
+      ],
+      "duration": 20.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Iron Plate",
+      "class_name": "Recipe_XmasBranch",
+      "ingredients": [
+        {
+          "item": "Desc_Gift",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_XmasBranch",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "Constructor"
+      ],
+      "duration": 6.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Iron Plate",
+      "class_name": "Recipe_XmasBall1",
+      "ingredients": [
+        {
+          "item": "Desc_Gift",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_XmasBall1",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "Smelter"
+      ],
+      "duration": 12.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Iron Plate",
+      "class_name": "Recipe_XmasBall2",
+      "ingredients": [
+        {
+          "item": "Desc_Gift",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_XmasBall2",
+          "amount": 2
+        }
+      ],
+      "produced_in": [
+        "Smelter"
+      ],
+      "duration": 12.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Iron Plate",
+      "class_name": "RecipeandyCane",
+      "ingredients": [
+        {
+          "item": "Desc_Gift",
+          "amount": 3
+        }
+      ],
+      "products": [
+        {
+          "item": "DescandyCane",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "Constructor"
+      ],
+      "duration": 12.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Iron Plate",
+      "class_name": "Recipe_XmasBow",
+      "ingredients": [
+        {
+          "item": "Desc_Gift",
+          "amount": 2
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_XmasBow",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "Constructor"
+      ],
+      "duration": 12.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Iron Plate",
+      "class_name": "Recipe_Snow",
+      "ingredients": [
+        {
+          "item": "Desc_Gift",
+          "amount": 5
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_Snow",
+          "amount": 2
+        }
+      ],
+      "produced_in": [
+        "Constructor"
+      ],
+      "duration": 12.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Iron Plate",
+      "class_name": "Recipe_XmasBall3",
+      "ingredients": [
+        {
+          "item": "Desc_XmasBall1",
+          "amount": 2
+        },
+        {
+          "item": "DescopperIngot",
+          "amount": 2
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_XmasBall3",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "Foundry"
+      ],
+      "duration": 12.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Iron Plate",
+      "class_name": "Recipe_XmasBall4",
+      "ingredients": [
+        {
+          "item": "Desc_XmasBall2",
+          "amount": 3
+        },
+        {
+          "item": "Desc_IronIngot",
+          "amount": 3
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_XmasBall4",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "Foundry"
+      ],
+      "duration": 12.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Iron Plate",
+      "class_name": "Recipe_XmasBallCluster",
+      "ingredients": [
+        {
+          "item": "Desc_XmasBall3",
+          "amount": 1
+        },
+        {
+          "item": "Desc_XmasBall4",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_XmasBallCluster",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "Assembler"
+      ],
+      "duration": 12.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Iron Plate",
+      "class_name": "Recipe_XmasWreath",
+      "ingredients": [
+        {
+          "item": "Desc_XmasBranch",
+          "amount": 15
+        },
+        {
+          "item": "Desc_XmasBallCluster",
+          "amount": 6
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_XmasWreath",
+          "amount": 2
+        }
+      ],
+      "produced_in": [
+        "Assembler"
+      ],
+      "duration": 60.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Iron Plate",
+      "class_name": "Recipe_XmasStar",
+      "ingredients": [
+        {
+          "item": "Desc_XmasWreath",
+          "amount": 5
+        },
+        {
+          "item": "DescandyCane",
+          "amount": 20
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_XmasStar",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "Assembler"
+      ],
+      "duration": 60.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "JetPack",
+      "class_name": "RecipeandyCaneBasher",
+      "ingredients": [
+        {
+          "item": "BP_EquipmentDescriptorShockShank",
+          "amount": 2
+        },
+        {
+          "item": "DescandyCane",
+          "amount": 25
+        },
+        {
+          "item": "Desc_Gift",
+          "amount": 15
+        }
+      ],
+      "products": [
+        {
+          "item": "BP_EquipmentDescriptorCandyCane",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "BP_WorkshopComponent"
+      ],
+      "duration": 80.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "JetPack",
+      "class_name": "Recipe_BladeRunners",
+      "ingredients": [
+        {
+          "item": "Desc_Silica",
+          "amount": 20
+        },
+        {
+          "item": "Desc_ModularFrame",
+          "amount": 3
+        },
+        {
+          "item": "Desc_Rotor",
+          "amount": 3
+        }
+      ],
+      "products": [
+        {
+          "item": "BP_EquipmentDescriptorJumpingStilts",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "BP_WorkshopComponent"
+      ],
+      "duration": 60.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "JetPack",
+      "class_name": "Recipe_XenoZapper",
+      "ingredients": [
+        {
+          "item": "Desc_IronRod",
+          "amount": 10
+        },
+        {
+          "item": "Desc_IronPlateReinforced",
+          "amount": 2
+        },
+        {
+          "item": "Descable",
+          "amount": 15
+        },
+        {
+          "item": "Desc_Wire",
+          "amount": 50
+        }
+      ],
+      "products": [
+        {
+          "item": "BP_EquipmentDescriptorShockShank",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "BP_WorkshopComponent"
+      ],
+      "duration": 40.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "JetPack",
+      "class_name": "Recipe_Hoverpack",
+      "ingredients": [
+        {
+          "item": "Desc_Motor",
+          "amount": 8
+        },
+        {
+          "item": "Desc_ModularFrameHeavy",
+          "amount": 4
+        },
+        {
+          "item": "Descomputer",
+          "amount": 8
+        },
+        {
+          "item": "Desc_AluminumPlate",
+          "amount": 40
+        }
+      ],
+      "products": [
+        {
+          "item": "BP_EquipmentDescriptorHoverPack",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "BP_WorkshopComponent"
+      ],
+      "duration": 120.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "JetPack",
+      "class_name": "Recipe_JetPack",
+      "ingredients": [
+        {
+          "item": "Desc_Plastic",
+          "amount": 50
+        },
+        {
+          "item": "Desc_Rubber",
+          "amount": 50
+        },
+        {
+          "item": "DescircuitBoard",
+          "amount": 15
+        },
+        {
+          "item": "Desc_Motor",
+          "amount": 5
+        }
+      ],
+      "products": [
+        {
+          "item": "BP_EquipmentDescriptorJetPack",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "BP_WorkshopComponent"
+      ],
+      "duration": 120.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "JetPack",
+      "class_name": "Recipe_XenoBasher",
+      "ingredients": [
+        {
+          "item": "Desc_ModularFrame",
+          "amount": 5
+        },
+        {
+          "item": "BP_EquipmentDescriptorShockShank",
+          "amount": 2
+        },
+        {
+          "item": "Descable",
+          "amount": 25
+        },
+        {
+          "item": "Desc_Wire",
+          "amount": 500
+        }
+      ],
+      "products": [
+        {
+          "item": "BP_EquipmentDescriptorStunSpear",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "BP_WorkshopComponent"
+      ],
+      "duration": 80.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Nail Gun",
+      "class_name": "Recipe_RebarGun",
+      "ingredients": [
+        {
+          "item": "Desc_IronPlateReinforced",
+          "amount": 6
+        },
+        {
+          "item": "Desc_IronRod",
+          "amount": 16
+        },
+        {
+          "item": "Desc_IronScrew",
+          "amount": 100
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_RebarGunProjectile",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "BP_WorkshopComponent"
+      ],
+      "duration": 60.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Nailgun Spike",
+      "class_name": "Recipe_Rebar_Explosive",
+      "ingredients": [
+        {
+          "item": "Desc_SpikedRebar",
+          "amount": 2
+        },
+        {
+          "item": "Desc_GunpowderMK2",
+          "amount": 2
+        },
+        {
+          "item": "Desc_SteelPipe",
+          "amount": 2
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_Rebar_Explosive",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "Manufacturer",
+        "BP_WorkshopComponent"
+      ],
+      "duration": 12.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Nailgun Spike",
+      "class_name": "Recipe_Rebar_Spreadshot",
+      "ingredients": [
+        {
+          "item": "Desc_SpikedRebar",
+          "amount": 2
+        },
+        {
+          "item": "Desc_QuartzCrystal",
+          "amount": 3
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_Rebar_Spreadshot",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "Assembler",
+        "BP_WorkshopComponent"
+      ],
+      "duration": 12.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Nailgun Spike",
+      "class_name": "Recipe_Rebar_Stunshot",
+      "ingredients": [
+        {
+          "item": "Desc_SpikedRebar",
+          "amount": 1
+        },
+        {
+          "item": "Desc_HighSpeedWire",
+          "amount": 5
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_Rebar_Stunshot",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "Assembler",
+        "BP_WorkshopComponent"
+      ],
+      "duration": 6.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Nailgun Spike",
+      "class_name": "Recipe_SpikedRebar",
+      "ingredients": [
+        {
+          "item": "Desc_IronRod",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_SpikedRebar",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "Constructor",
+        "BP_WorkshopComponent"
+      ],
+      "duration": 4.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Nobelisk",
+      "class_name": "Recipe_NobeliskNuke",
+      "ingredients": [
+        {
+          "item": "Desc_NobeliskExplosive",
+          "amount": 5
+        },
+        {
+          "item": "Desc_UraniumCell",
+          "amount": 20
+        },
+        {
+          "item": "Desc_GunpowderMK2",
+          "amount": 10
+        },
+        {
+          "item": "DescircuitBoardHighSpeed",
+          "amount": 6
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_NobeliskNuke",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "BP_WorkshopComponent",
+        "Manufacturer"
+      ],
+      "duration": 120.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Nobelisk",
+      "class_name": "Recipe_Nobelisk",
+      "ingredients": [
+        {
+          "item": "Desc_Gunpowder",
+          "amount": 2
+        },
+        {
+          "item": "Desc_SteelPipe",
+          "amount": 2
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_NobeliskExplosive",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "BP_WorkshopComponent",
+        "Assembler"
+      ],
+      "duration": 6.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Nobelisk Detonator",
+      "class_name": "Recipe_NobeliskDetonator",
+      "ingredients": [
+        {
+          "item": "BP_EquipmentDescriptorObjectScanner",
+          "amount": 1
+        },
+        {
+          "item": "Desc_SteelPlate",
+          "amount": 10
+        },
+        {
+          "item": "Descable",
+          "amount": 50
+        }
+      ],
+      "products": [
+        {
+          "item": "BP_EquipmentDescriptorNobeliskDetonator",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "BP_WorkshopComponent"
+      ],
+      "duration": 80.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Nuclear Fuel Rod",
+      "class_name": "Recipe_PlutoniumFuelRod",
+      "ingredients": [
+        {
+          "item": "Desc_PlutoniumCell",
+          "amount": 30
+        },
+        {
+          "item": "Desc_SteelPlate",
+          "amount": 18
+        },
+        {
+          "item": "Desc_ElectromagneticControlRod",
+          "amount": 6
+        },
+        {
+          "item": "Desc_AluminumPlateReinforced",
+          "amount": 10
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_PlutoniumFuelRod",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "Manufacturer"
+      ],
+      "duration": 240.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Nuclear Fuel Rod",
+      "class_name": "Recipe_NuclearFuelRod",
+      "ingredients": [
+        {
+          "item": "Desc_UraniumCell",
+          "amount": 50
+        },
+        {
+          "item": "Desc_SteelPlateReinforced",
+          "amount": 3
+        },
+        {
+          "item": "Desc_ElectromagneticControlRod",
+          "amount": 5
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_NuclearFuelRod",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "Manufacturer"
+      ],
+      "duration": 150.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Nutritional Inhaler",
+      "class_name": "Recipe_NutritionalInhaler",
+      "ingredients": [
+        {
+          "item": "Desc_Shroom",
+          "amount": 1
+        },
+        {
+          "item": "Desc_Berry",
+          "amount": 2
+        },
+        {
+          "item": "Desc_Nut",
+          "amount": 5
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_Medkit",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "BP_WorkshopComponent"
+      ],
+      "duration": 20.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Object Scanner",
+      "class_name": "Recipe_ObjectScanner",
+      "ingredients": [
+        {
+          "item": "Desc_IronPlateReinforced",
+          "amount": 4
+        },
+        {
+          "item": "Desc_Wire",
+          "amount": 20
+        },
+        {
+          "item": "Desc_IronScrew",
+          "amount": 50
+        }
+      ],
+      "products": [
+        {
+          "item": "BP_EquipmentDescriptorObjectScanner",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "BP_WorkshopComponent"
+      ],
+      "duration": 40.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Packaged Turbofuel",
+      "class_name": "Recipe_PackagedTurboFuel",
+      "ingredients": [
+        {
+          "item": "Desc_LiquidTurboFuel",
+          "amount": 2000
+        },
+        {
+          "item": "Desc_FluidCanister",
+          "amount": 2
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_TurboFuel",
+          "amount": 2
+        }
+      ],
+      "produced_in": [
+        "Packager"
+      ],
+      "duration": 6.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Parachute",
+      "class_name": "Recipe_Parachute",
+      "ingredients": [
+        {
+          "item": "Desc_Fabric",
+          "amount": 20
+        },
+        {
+          "item": "Descable",
+          "amount": 10
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_Parachute",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "BP_WorkshopComponent"
+      ],
+      "duration": 40.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Petroleum Coke",
+      "class_name": "Recipe_PetroleumCoke",
+      "ingredients": [
+        {
+          "item": "Desc_HeavyOilResidue",
+          "amount": 4000
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_PetroleumCoke",
+          "amount": 12
+        }
+      ],
+      "produced_in": [
+        "Refinery"
+      ],
+      "duration": 6.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Plastic",
+      "class_name": "Recipe_Plastic",
+      "ingredients": [
+        {
+          "item": "Desc_LiquidOil",
+          "amount": 3000
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_Plastic",
+          "amount": 2
+        },
+        {
+          "item": "Desc_HeavyOilResidue",
+          "amount": 1000
+        }
+      ],
+      "produced_in": [
+        "Refinery"
+      ],
+      "duration": 6.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Portable Miner",
+      "class_name": "Recipe_PortableMiner",
+      "ingredients": [
+        {
+          "item": "Desc_IronPlate",
+          "amount": 2
+        },
+        {
+          "item": "Desc_IronRod",
+          "amount": 4
+        }
+      ],
+      "products": [
+        {
+          "item": "BP_ItemDescriptorPortableMiner",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "BP_WorkshopComponent"
+      ],
+      "duration": 40.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Protein Inhaler",
+      "class_name": "Recipe_MedicinalInhalerAlienOrgans",
+      "ingredients": [
+        {
+          "item": "Desc_AlienProtein",
+          "amount": 1
+        },
+        {
+          "item": "Desc_Nut",
+          "amount": 10
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_Medkit",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "BP_WorkshopComponent"
+      ],
+      "duration": 20.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Pulse Nobelisk",
+      "class_name": "Recipe_NobeliskShockwave",
+      "ingredients": [
+        {
+          "item": "Desc_NobeliskExplosive",
+          "amount": 5
+        },
+        {
+          "item": "DescrystalOscillator",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_NobeliskShockwave",
+          "amount": 5
+        }
+      ],
+      "produced_in": [
+        "BP_WorkshopComponent",
+        "Assembler"
+      ],
+      "duration": 60.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Recipe_GunpowderMK2_C",
+      "class_name": "Recipe_GunpowderMK2",
+      "ingredients": [
+        {
+          "item": "Desc_Gunpowder",
+          "amount": 2
+        },
+        {
+          "item": "Desc_HeavyOilResidue",
+          "amount": 1000
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_GunpowderMK2",
+          "amount": 2
+        }
+      ],
+      "produced_in": [
+        "Refinery"
+      ],
+      "duration": 6.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Recipe_Gunpowder_C",
+      "class_name": "Recipe_Gunpowder",
+      "ingredients": [
+        {
+          "item": "Descoal",
+          "amount": 1
+        },
+        {
+          "item": "Desc_Sulfur",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_Gunpowder",
+          "amount": 2
+        }
+      ],
+      "produced_in": [
+        "Assembler",
+        "BP_WorkshopComponent"
+      ],
+      "duration": 4.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Recipe_HubTerminal_C",
+      "class_name": "Recipe_HubTerminal",
+      "ingredients": [],
+      "products": [
+        {
+          "item": "Desc_HubTerminal",
+          "amount": 1
+        }
+      ],
+      "produced_in": [],
+      "duration": 1,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Recipe_JumpPadTilted_C",
+      "class_name": "Recipe_JumpPadTilted",
+      "ingredients": [
+        {
+          "item": "Desc_Rotor",
+          "amount": 2
+        },
+        {
+          "item": "Desc_IronPlate",
+          "amount": 15
+        },
+        {
+          "item": "Descable",
+          "amount": 10
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_JumpPadTilted",
+          "amount": 1
+        }
+      ],
+      "produced_in": [],
+      "duration": 1,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Recipe_JumpPad_C",
+      "class_name": "Recipe_JumpPad",
+      "ingredients": [
+        {
+          "item": "Desc_Rotor",
+          "amount": 2
+        },
+        {
+          "item": "Desc_IronPlate",
+          "amount": 15
+        },
+        {
+          "item": "Descable",
+          "amount": 10
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_JumpPad",
+          "amount": 1
+        }
+      ],
+      "produced_in": [],
+      "duration": 1,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Recipe_WorkBenchIntegrated_C",
+      "class_name": "Recipe_WorkBenchIntegrated",
+      "ingredients": [],
+      "products": [
+        {
+          "item": "Desc_WorkBenchIntegrated",
+          "amount": 1
+        }
+      ],
+      "produced_in": [],
+      "duration": 1,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Residual Fuel",
+      "class_name": "Recipe_ResidualFuel",
+      "ingredients": [
+        {
+          "item": "Desc_HeavyOilResidue",
+          "amount": 6000
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_LiquidFuel",
+          "amount": 4000
+        }
+      ],
+      "produced_in": [
+        "Refinery"
+      ],
+      "duration": 6.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Residual Plastic",
+      "class_name": "Recipe_ResidualPlastic",
+      "ingredients": [
+        {
+          "item": "Desc_PolymerResin",
+          "amount": 6
+        },
+        {
+          "item": "Desc_Water",
+          "amount": 2000
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_Plastic",
+          "amount": 2
+        }
+      ],
+      "produced_in": [
+        "Refinery"
+      ],
+      "duration": 6.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Residual Rubber",
+      "class_name": "Recipe_ResidualRubber",
+      "ingredients": [
+        {
+          "item": "Desc_PolymerResin",
+          "amount": 4
+        },
+        {
+          "item": "Desc_Water",
+          "amount": 4000
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_Rubber",
+          "amount": 2
+        }
+      ],
+      "produced_in": [
+        "Refinery"
+      ],
+      "duration": 6.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Rubber",
+      "class_name": "Recipe_Rubber",
+      "ingredients": [
+        {
+          "item": "Desc_LiquidOil",
+          "amount": 3000
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_Rubber",
+          "amount": 2
+        },
+        {
+          "item": "Desc_HeavyOilResidue",
+          "amount": 2000
+        }
+      ],
+      "produced_in": [
+        "Refinery"
+      ],
+      "duration": 6.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Snowball",
+      "class_name": "Recipe_Snowball",
+      "ingredients": [
+        {
+          "item": "Desc_Snow",
+          "amount": 3
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_SnowballProjectile",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "Constructor"
+      ],
+      "duration": 12.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Space Rifle",
+      "class_name": "Recipe_SpaceRifleMk1",
+      "ingredients": [
+        {
+          "item": "Desc_Motor",
+          "amount": 2
+        },
+        {
+          "item": "Desc_Rubber",
+          "amount": 10
+        },
+        {
+          "item": "Desc_SteelPipe",
+          "amount": 25
+        },
+        {
+          "item": "Desc_IronScrew",
+          "amount": 250
+        }
+      ],
+      "products": [
+        {
+          "item": "BP_EquipmentDescriptorRifle",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "BP_WorkshopComponent"
+      ],
+      "duration": 120.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Space Rifle",
+      "class_name": "Recipehainsaw",
+      "ingredients": [
+        {
+          "item": "Desc_IronPlateReinforced",
+          "amount": 5
+        },
+        {
+          "item": "Desc_IronRod",
+          "amount": 25
+        },
+        {
+          "item": "Desc_IronScrew",
+          "amount": 160
+        },
+        {
+          "item": "Descable",
+          "amount": 15
+        }
+      ],
+      "products": [
+        {
+          "item": "Deschainsaw",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "BP_WorkshopComponent"
+      ],
+      "duration": 60.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Spe",
+      "class_name": "Recipe_SpaceElevatorPart_7",
+      "ingredients": [
+        {
+          "item": "Desc_SpaceElevatorPart_5",
+          "amount": 2
+        },
+        {
+          "item": "DescomputerSuper",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_SpaceElevatorPart_7",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "Assembler"
+      ],
+      "duration": 80.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Standard Cartridge",
+      "class_name": "RecipeartridgeChaos_Packaged",
+      "ingredients": [
+        {
+          "item": "DescartridgeStandard",
+          "amount": 25
+        },
+        {
+          "item": "Desc_AluminumCasing",
+          "amount": 3
+        },
+        {
+          "item": "Desc_TurboFuel",
+          "amount": 3
+        }
+      ],
+      "products": [
+        {
+          "item": "DescartridgeChaos",
+          "amount": 50
+        }
+      ],
+      "produced_in": [
+        "Manufacturer",
+        "BP_WorkshopComponent"
+      ],
+      "duration": 12.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Standard Cartridge",
+      "class_name": "RecipeartridgeChaos",
+      "ingredients": [
+        {
+          "item": "DescartridgeStandard",
+          "amount": 25
+        },
+        {
+          "item": "Desc_AluminumCasing",
+          "amount": 3
+        },
+        {
+          "item": "Desc_LiquidTurboFuel",
+          "amount": 3000
+        }
+      ],
+      "products": [
+        {
+          "item": "DescartridgeChaos",
+          "amount": 50
+        }
+      ],
+      "produced_in": [
+        "Blender"
+      ],
+      "duration": 12.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Standard Cartridge",
+      "class_name": "RecipeartridgeSmart",
+      "ingredients": [
+        {
+          "item": "DescartridgeStandard",
+          "amount": 20
+        },
+        {
+          "item": "Desc_HighSpeedConnector",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "item": "DescartridgeSmartProjectile",
+          "amount": 10
+        }
+      ],
+      "produced_in": [
+        "Assembler",
+        "BP_WorkshopComponent"
+      ],
+      "duration": 24.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Standard Cartridge",
+      "class_name": "Recipeartridge",
+      "ingredients": [
+        {
+          "item": "DescopperSheet",
+          "amount": 3
+        },
+        {
+          "item": "Desc_GunpowderMK2",
+          "amount": 2
+        }
+      ],
+      "products": [
+        {
+          "item": "DescartridgeStandard",
+          "amount": 15
+        }
+      ],
+      "produced_in": [
+        "Assembler",
+        "BP_WorkshopComponent"
+      ],
+      "duration": 12.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Therapeutic Inhaler",
+      "class_name": "Recipe_TherapeuticInhaler",
+      "ingredients": [
+        {
+          "item": "Desc_Mycelia",
+          "amount": 15
+        },
+        {
+          "item": "Desc_AlienProtein",
+          "amount": 1
+        },
+        {
+          "item": "Desc_Shroom",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_Medkit",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "BP_WorkshopComponent"
+      ],
+      "duration": 20.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Tire",
+      "class_name": "Recipe_UraniumCell",
+      "ingredients": [
+        {
+          "item": "Desc_OreUranium",
+          "amount": 10
+        },
+        {
+          "item": "Descement",
+          "amount": 3
+        },
+        {
+          "item": "Desc_SulfuricAcid",
+          "amount": 8000
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_UraniumCell",
+          "amount": 5
+        },
+        {
+          "item": "Desc_SulfuricAcid",
+          "amount": 2000
+        }
+      ],
+      "produced_in": [
+        "Blender"
+      ],
+      "duration": 12.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Track",
+      "class_name": "Recipe_RailroadSwitchControl",
+      "ingredients": [],
+      "products": [
+        {
+          "item": "Desc_RailroadSwitchControl",
+          "amount": 1
+        }
+      ],
+      "produced_in": [],
+      "duration": 1,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Truck Chassis",
+      "class_name": "Recipe_NonFissileUranium",
+      "ingredients": [
+        {
+          "item": "Desc_NuclearWaste",
+          "amount": 15
+        },
+        {
+          "item": "Desc_Silica",
+          "amount": 10
+        },
+        {
+          "item": "Desc_NitricAcid",
+          "amount": 6000
+        },
+        {
+          "item": "Desc_SulfuricAcid",
+          "amount": 6000
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_NonFissibleUranium",
+          "amount": 20
+        },
+        {
+          "item": "Desc_Water",
+          "amount": 6000
+        }
+      ],
+      "produced_in": [
+        "Blender"
+      ],
+      "duration": 24.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Truck Chassis",
+      "class_name": "Recipe_NitricAcid",
+      "ingredients": [
+        {
+          "item": "Desc_NitrogenGas",
+          "amount": 12000
+        },
+        {
+          "item": "Desc_Water",
+          "amount": 3000
+        },
+        {
+          "item": "Desc_IronPlate",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_NitricAcid",
+          "amount": 3000
+        }
+      ],
+      "produced_in": [
+        "Blender"
+      ],
+      "duration": 6.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Truck Chassis",
+      "class_name": "Recipe_FusedModularFrame",
+      "ingredients": [
+        {
+          "item": "Desc_ModularFrameHeavy",
+          "amount": 1
+        },
+        {
+          "item": "Desc_AluminumCasing",
+          "amount": 50
+        },
+        {
+          "item": "Desc_NitrogenGas",
+          "amount": 25000
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_ModularFrameFused",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "Blender"
+      ],
+      "duration": 40.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Truck Chassis",
+      "class_name": "RecipeoolingSystem",
+      "ingredients": [
+        {
+          "item": "Desc_AluminumPlateReinforced",
+          "amount": 2
+        },
+        {
+          "item": "Desc_Rubber",
+          "amount": 2
+        },
+        {
+          "item": "Desc_Water",
+          "amount": 5000
+        },
+        {
+          "item": "Desc_NitrogenGas",
+          "amount": 25000
+        }
+      ],
+      "products": [
+        {
+          "item": "DescoolingSystem",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "Blender"
+      ],
+      "duration": 10.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Turbofuel",
+      "class_name": "Recipe_Alternate_Turbofuel",
+      "ingredients": [
+        {
+          "item": "Desc_LiquidFuel",
+          "amount": 6000
+        },
+        {
+          "item": "DescompactedCoal",
+          "amount": 4
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_LiquidTurboFuel",
+          "amount": 5000
+        }
+      ],
+      "produced_in": [
+        "Refinery"
+      ],
+      "duration": 16.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Unpackage Alumina Solution",
+      "class_name": "Recipe_UnpackageAlumina",
+      "ingredients": [
+        {
+          "item": "Desc_PackagedAlumina",
+          "amount": 2
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_AluminaSolution",
+          "amount": 2000
+        },
+        {
+          "item": "Desc_FluidCanister",
+          "amount": 2
+        }
+      ],
+      "produced_in": [
+        "Packager"
+      ],
+      "duration": 1,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Unpackage Fuel",
+      "class_name": "Recipe_UnpackageFuel",
+      "ingredients": [
+        {
+          "item": "Desc_Fuel",
+          "amount": 2
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_LiquidFuel",
+          "amount": 2000
+        },
+        {
+          "item": "Desc_FluidCanister",
+          "amount": 2
+        }
+      ],
+      "produced_in": [
+        "Packager"
+      ],
+      "duration": 2.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Unpackage Heavy Oil Residue",
+      "class_name": "Recipe_UnpackageOilResidue",
+      "ingredients": [
+        {
+          "item": "Desc_PackagedOilResidue",
+          "amount": 2
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_HeavyOilResidue",
+          "amount": 2000
+        },
+        {
+          "item": "Desc_FluidCanister",
+          "amount": 2
+        }
+      ],
+      "produced_in": [
+        "Packager"
+      ],
+      "duration": 6.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Unpackage Liquid Biofuel",
+      "class_name": "Recipe_UnpackageBioFuel",
+      "ingredients": [
+        {
+          "item": "Desc_PackagedBiofuel",
+          "amount": 2
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_LiquidBiofuel",
+          "amount": 2000
+        },
+        {
+          "item": "Desc_FluidCanister",
+          "amount": 2
+        }
+      ],
+      "produced_in": [
+        "Packager"
+      ],
+      "duration": 2.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Unpackage Nitric Acid",
+      "class_name": "Recipe_UnpackageNitricAcid",
+      "ingredients": [
+        {
+          "item": "Desc_PackagedNitricAcid",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_NitricAcid",
+          "amount": 1000
+        },
+        {
+          "item": "Desc_GasTank",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "Packager"
+      ],
+      "duration": 3.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Unpackage Nitrogen Gas",
+      "class_name": "Recipe_UnpackageNitrogen",
+      "ingredients": [
+        {
+          "item": "Desc_PackagedNitrogenGas",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_NitrogenGas",
+          "amount": 4000
+        },
+        {
+          "item": "Desc_GasTank",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "Packager"
+      ],
+      "duration": 1,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Unpackage Oil",
+      "class_name": "Recipe_UnpackageOil",
+      "ingredients": [
+        {
+          "item": "Desc_PackagedOil",
+          "amount": 2
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_LiquidOil",
+          "amount": 2000
+        },
+        {
+          "item": "Desc_FluidCanister",
+          "amount": 2
+        }
+      ],
+      "produced_in": [
+        "Packager"
+      ],
+      "duration": 2.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Unpackage Sulfuric Acid",
+      "class_name": "Recipe_UnpackageSulfuricAcid",
+      "ingredients": [
+        {
+          "item": "Desc_PackagedSulfuricAcid",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_SulfuricAcid",
+          "amount": 1000
+        },
+        {
+          "item": "Desc_FluidCanister",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "Packager"
+      ],
+      "duration": 1,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Unpackage Turbofuel",
+      "class_name": "Recipe_UnpackageTurboFuel",
+      "ingredients": [
+        {
+          "item": "Desc_TurboFuel",
+          "amount": 2
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_LiquidTurboFuel",
+          "amount": 2000
+        },
+        {
+          "item": "Desc_FluidCanister",
+          "amount": 2
+        }
+      ],
+      "produced_in": [
+        "Packager"
+      ],
+      "duration": 6.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Unpackage Water",
+      "class_name": "Recipe_UnpackageWater",
+      "ingredients": [
+        {
+          "item": "Desc_PackagedWater",
+          "amount": 2
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_Water",
+          "amount": 2000
+        },
+        {
+          "item": "Desc_FluidCanister",
+          "amount": 2
+        }
+      ],
+      "produced_in": [
+        "Packager"
+      ],
+      "duration": 1,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Vitamin Inhaler",
+      "class_name": "Recipe_MedicinalInhaler",
+      "ingredients": [
+        {
+          "item": "Desc_Mycelia",
+          "amount": 10
+        },
+        {
+          "item": "Desc_Berry",
+          "amount": 5
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_Medkit",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "BP_WorkshopComponent"
+      ],
+      "duration": 20.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Wall 1a",
+      "class_name": "Recipe_SteelWall_8x4",
+      "ingredients": [
+        {
+          "item": "Desc_IronPlate",
+          "amount": 3
+        },
+        {
+          "item": "Descement",
+          "amount": 3
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_SteelWall_8x4",
+          "amount": 1
+        }
+      ],
+      "produced_in": [],
+      "duration": 1,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Wall 1a",
+      "class_name": "Recipe_Wall_Window_8x4_03_Steel",
+      "ingredients": [
+        {
+          "item": "Desc_IronPlate",
+          "amount": 3
+        },
+        {
+          "item": "Descement",
+          "amount": 3
+        }
+      ],
+      "products": [
+        {
+          "item": "Desc_Wall_Window_8x4_03_Steel",
+          "amount": 1
+        }
+      ],
+      "produced_in": [],
+      "duration": 1,
+      "is_alternate": false,
+      "is_build_recipe": false
+    },
+    {
+      "name": "Zipline",
+      "class_name": "Recipe_ZipLine",
+      "ingredients": [
+        {
+          "item": "BP_EquipmentDescriptorShockShank",
+          "amount": 1
+        },
+        {
+          "item": "Desc_HighSpeedWire",
+          "amount": 30
+        },
+        {
+          "item": "Desc_IronRod",
+          "amount": 3
+        },
+        {
+          "item": "Descable",
+          "amount": 10
+        }
+      ],
+      "products": [
+        {
+          "item": "BP_EqDescZipLine",
+          "amount": 1
+        }
+      ],
+      "produced_in": [
+        "BP_WorkshopComponent"
+      ],
+      "duration": 40.0,
+      "is_alternate": false,
+      "is_build_recipe": false
+    }
+  ]
+}

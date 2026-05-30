@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>FactoryCalc — Space Elevator Phases | Pioneer Edition</title>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Share+Tech+Mono&family=Barlow:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+.app{grid-template-columns:1fr}
+.phases-page{display:flex;flex-direction:column;flex:1;overflow:hidden}
+.phases-toolbar{padding:14px 24px;border-bottom:1px solid var(--border);background:rgba(12,10,6,0.5);flex-shrink:0}
+.phases-toolbar .pht-title{font-family:'Rajdhani',sans-serif;font-size:18px;font-weight:700;color:var(--warm);letter-spacing:1px;margin-bottom:4px}
+.phases-toolbar .pht-sub{font-family:'Share Tech Mono',monospace;font-size:9px;color:var(--dim);letter-spacing:2px}
+.phases-scroll{flex:1;overflow-y:auto;padding:20px 24px}
+.phase-group{margin-bottom:28px}
+.phase-header{display:flex;align-items:center;gap:14px;margin-bottom:14px}
+.phase-badge{font-family:'Rajdhani',sans-serif;font-size:22px;font-weight:700;color:var(--obsidian);background:var(--amber);padding:4px 14px;letter-spacing:1px;line-height:1}
+.phase-line{flex:1;height:1px;background:var(--border)}
+.phase-sub{font-family:'Share Tech Mono',monospace;font-size:9px;color:var(--dim);letter-spacing:2px}
+.phase-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(350px,1fr));gap:10px}
+.phase-card{background:var(--panel);border:1px solid var(--border);position:relative;transition:border-color 0.15s}
+.phase-card::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,var(--amber),transparent)}
+.phase-card:hover{border-color:var(--border-hot)}
+.phase-card.done{border-color:rgba(74,140,106,0.35)}
+.phase-card.done::before{background:linear-gradient(90deg,#6EC96E,transparent)}
+.phc-head{padding:12px 16px;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between}
+.phc-name{font-family:'Rajdhani',sans-serif;font-size:16px;font-weight:700;color:var(--warm);letter-spacing:0.5px}
+.phc-status{padding:2px 8px;font-family:'Share Tech Mono',monospace;font-size:7px;letter-spacing:1px;border:1px solid var(--border);color:var(--muted);cursor:pointer;transition:all 0.12s;user-select:none}
+.phc-status.done{color:#6EC96E;border-color:rgba(74,140,106,0.35);background:rgba(74,140,106,0.1)}
+.phc-status:hover{border-color:var(--muted)}
+.phc-body{padding:12px 16px}
+.phc-stat{display:flex;justify-content:space-between;align-items:center;margin-bottom:6px}
+.phc-sk{font-family:'Share Tech Mono',monospace;font-size:8px;color:var(--dim);letter-spacing:1px}
+.phc-sv{font-family:'Share Tech Mono',monospace;font-size:13px;color:var(--gold)}
+.phc-sv.qty{color:#6EC96E}
+.phc-delivery{display:flex;align-items:center;gap:8px;margin-top:8px}
+.phc-delivery .fi{padding:6px 8px;font-size:11px;max-width:100px}
+.phc-delivery .pct{font-family:'Share Tech Mono',monospace;font-size:10px;color:var(--muted);letter-spacing:1px}
+.phc-delivery .pct span{color:var(--gold)}
+.phc-footer{padding:10px 16px;border-top:1px solid var(--border)}
+.phc-footer .phc-sk{font-family:'Share Tech Mono',monospace;font-size:7px;color:var(--dim);letter-spacing:1px;margin-bottom:4px}
+.phc-ing-item{display:flex;justify-content:space-between;font-size:10px;color:var(--muted);padding:2px 0}
+.phc-ing-item .phc-ir{font-family:'Share Tech Mono',monospace;color:var(--gold)}
+.phase-progress{margin-bottom:14px;display:flex;align-items:center;gap:12px}
+.phase-bar{flex:1;height:4px;background:var(--surface);border:1px solid var(--border);overflow:hidden}
+.phase-bar-fill{height:100%;background:var(--amber);transition:width 0.3s}
+.phase-bar-fill.complete{background:#6EC96E}
+.phase-ptxt{font-family:'Share Tech Mono',monospace;font-size:9px;color:var(--dim);letter-spacing:1px;white-space:nowrap}
+.phase-ptxt span{color:var(--gold)}
+.reset-phases-btn{padding:8px 16px;background:transparent;border:1px solid var(--dim);font-family:'Rajdhani',sans-serif;font-size:11px;font-weight:600;letter-spacing:1.5px;color:var(--muted);cursor:pointer;transition:all 0.12s;margin-bottom:20px}
+.reset-phases-btn:hover{border-color:var(--amber);color:var(--amber)}
+.phc-btn-row{display:flex;gap:6px;justify-content:flex-end;padding:8px 16px;border-top:1px solid var(--border)}
+.phc-btn{padding:5px 12px;font-family:'Rajdhani',sans-serif;font-size:10px;font-weight:700;letter-spacing:1.5px;cursor:pointer;border:none;text-decoration:none;display:inline-flex;align-items:center;gap:4px;transition:all 0.12s}
+.phc-btn.primary{background:var(--amber);color:var(--obsidian)}
+.phc-btn.primary:hover{background:var(--gold)}
+</style>
+</head>
+<body>
+  <nav>
+  <a class="logo" href="index.html">
+    <div class="logo-hex">
+      <svg width="28" height="28" viewBox="0 0 28 28"><polygon points="14,1 27,7.5 27,20.5 14,27 1,20.5 1,7.5" fill="#FFB300"/></svg>
+      <span class="logo-letter">F</span>
+    </div>
+    <span class="logo-wm">Factory<em>Calc</em></span>
+    <div class="logo-divider"></div>
+    <span class="logo-sub">Pioneer Edition</span>
+  </a>
+  <div class="nav-links">
+    <a href="index.html" class="nl">Planner</a>
+    <a href="recipes.html" class="nl">Recipes</a>
+    <a href="power.html" class="nl">Power</a>
+    <a href="nodes.html" class="nl">Nodes</a>
+    <a href="phases.html" class="nl on">Phases</a>
+  </div>
+  <div class="nav-r">
+    <span class="ver-tag">v1.5</span>
+    <div class="mode-badge">PHASE TRACKER</div>
+  </div>
+</nav>
+
+<div class="app">
+  <div class="phases-page">
+    <div class="phases-toolbar">
+      <div class="pht-title">SPACE ELEVATOR PHASES</div>
+      <div class="pht-sub">// PROJECT PART REQUIREMENTS · DELIVERY TRACKER · TIER UNLOCK STATUS</div>
+    </div>
+    <div class="phases-scroll">
+      <div>
+        <button class="reset-phases-btn" onclick="PhasesApp.reset()">⟳ RESET ALL PROGRESS</button>
+      </div>
+      <div id="phasesContainer"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+const PhasesApp = (() => {
+  const STORAGE_KEY = 'factorycalc_phases';
+  const STATE_VERSION = 2;
+
+  const PHASES = [
+    {
+      name: 'Phase 1', tier: 'TIER 3-4 UNLOCK',
+      items: [
+        {
+          name: 'Smart Plating', required: 50,
+          ingredients: [{ item: 'Reinforced Iron Plate', rate: 2.5 }, { item: 'Rotor', rate: 2.5 }]
+        }
+      ]
+    },
+    {
+      name: 'Phase 2', tier: 'TIER 5-6 UNLOCK',
+      items: [
+        {
+          name: 'Smart Plating', required: 1000,
+          ingredients: [{ item: 'Reinforced Iron Plate', rate: 2.5 }, { item: 'Rotor', rate: 2.5 }]
+        },
+        {
+          name: 'Versatile Framework', required: 1000,
+          ingredients: [{ item: 'Modular Frame', rate: 2.5 }, { item: 'Steel Beam', rate: 30.0 }]
+        },
+        {
+          name: 'Automated Wiring', required: 100,
+          ingredients: [{ item: 'Stator', rate: 2.5 }, { item: 'Cable', rate: 50.0 }]
+        }
+      ]
+    },
+    {
+      name: 'Phase 3', tier: 'TIER 7-8 UNLOCK',
+      items: [
+        {
+          name: 'Versatile Framework', required: 2500,
+          ingredients: [{ item: 'Modular Frame', rate: 2.5 }, { item: 'Steel Beam', rate: 30.0 }]
+        },
+        {
+          name: 'Modular Engine', required: 500,
+          ingredients: [{ item: 'Motor', rate: 2.0 }, { item: 'Rubber', rate: 15.0 }, { item: 'Smart Plating', rate: 2.0 }]
+        },
+        {
+          name: 'Adaptive Control Unit', required: 100,
+          ingredients: [{ item: 'Automated Wiring', rate: 7.5 }, { item: 'Circuit Board', rate: 5.0 }]
+        }
+      ]
+    },
+    {
+      name: 'Phase 4', tier: 'TIER 9 UNLOCK',
+      items: [
+        {
+          name: 'Assembly Director System', required: 500,
+          ingredients: [{ item: 'Adaptive Control Unit', rate: 1.5 }, { item: 'Supercomputer', rate: 0.75 }]
+        },
+        {
+          name: 'Magnetic Field Generator', required: 500,
+          ingredients: [{ item: 'Versatile Framework', rate: 2.5 }, { item: 'Stator', rate: 15.0 }, { item: 'Battery', rate: 10.0 }]
+        },
+        {
+          name: 'Thermal Propulsion Rocket', required: 250,
+          ingredients: [{ item: 'Cooling System', rate: 3.0 }, { item: 'Fused Modular Frame', rate: 1.0 }, { item: 'Radio Control Unit', rate: 1.5 }, { item: 'Turbo Motor', rate: 0.75 }]
+        },
+        {
+          name: 'Nuclear Pasta', required: 100,
+          ingredients: [{ item: 'Copper Powder', rate: 100.0 }, { item: 'Pressure Conversion Cube', rate: 0.5 }]
+        }
+      ]
+    },
+    {
+      name: 'Phase 5', tier: 'PROJECT ASSEMBLY LAUNCH',
+      items: [
+        {
+          name: 'Nuclear Pasta', required: 1000,
+          ingredients: [{ item: 'Copper Powder', rate: 100.0 }, { item: 'Pressure Conversion Cube', rate: 0.5 }]
+        },
+        {
+          name: 'Biochemical Sculptor', required: 1000,
+          ingredients: [{ item: 'Assembly Director System', rate: 0.5 }, { item: 'Ficsite Trigon', rate: 40.0 }, { item: 'Water', rate: 10.0 }]
+        },
+        {
+          name: 'AI Expansion Server', required: 256,
+          ingredients: [{ item: 'Magnetic Field Generator', rate: 4.0 }, { item: 'Neural-Quantum Processor', rate: 4.0 }, { item: 'Superposition Oscillator', rate: 4.0 }, { item: 'Excited Photonic Matter', rate: 100.0 }]
+        },
+        {
+          name: 'Ballistic Warp Drive', required: 200,
+          ingredients: [{ item: 'Thermal Propulsion Rocket', rate: 1.0 }, { item: 'Singularity Cell', rate: 5.0 }, { item: 'Superposition Oscillator', rate: 2.0 }, { item: 'Dark Matter Crystal', rate: 40.0 }]
+        }
+      ]
+    }
+  ];
+
+  function loadState() {
+    try {
+      const raw = localStorage.getItem(STORAGE_KEY);
+      const data = raw ? JSON.parse(raw) : null;
+      if (data && data._version === STATE_VERSION) return data;
+      return null;
+    } catch(e) {
+      return null;
+    }
+  }
+
+  function saveState(state) {
+    try {
+      state._version = STATE_VERSION;
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+    } catch(e) {}
+  }
+
+  function getDefaultState() {
+    const state = {};
+    PHASES.forEach((phase, pi) => {
+      phase.items.forEach((item, ii) => {
+        state[`${pi}-${ii}`] = { delivered: 0, done: false };
+      });
+    });
+    state._version = STATE_VERSION;
+    return state;
+  }
+
+  function render() {
+    const container = document.getElementById('phasesContainer');
+    const state = loadState() || getDefaultState();
+
+    container.innerHTML = PHASES.map((phase, pi) => {
+      let totalRequired = 0;
+      let totalDelivered = 0;
+
+      const cards = phase.items.map((item, ii) => {
+        const key = `${pi}-${ii}`;
+        const st = state[key] || { delivered: 0, done: false };
+        totalRequired += item.required;
+        totalDelivered += Math.min(st.delivered, item.required);
+
+        const pct = item.required > 0 ? Math.round((st.delivered / item.required) * 100) : 0;
+        const done = st.done || st.delivered >= item.required;
+
+        const ingRows = item.ingredients.map(ing =>
+          `<div class="phc-ing-item"><span>${ing.item}</span><span class="phc-ir">${ing.rate} / min</span></div>`
+        ).join('');
+
+        return `<div class="phase-card${done ? ' done' : ''}">
+          <div class="phc-head">
+            <div class="phc-name">${item.name}</div>
+            <div class="phc-status${done ? ' done' : ''}" onclick="PhasesApp.toggleDone(${pi},${ii})">${done ? '✓ DELIVERED' : 'PENDING'}</div>
+          </div>
+          <div class="phc-body">
+            <div class="phc-stat"><span class="phc-sk">REQUIRED</span><span class="phc-sv qty">${item.required.toLocaleString()}</span></div>
+            <div class="phc-delivery">
+              <input class="fi" type="number" value="${st.delivered}" min="0" max="${item.required}" step="1" data-p="${pi}" data-i="${ii}" onchange="PhasesApp.updateDelivery(${pi},${ii},this.value)">
+              <span class="pct">/ ${item.required.toLocaleString()} <span>(${Math.min(pct, 100)}%)</span></span>
+            </div>
+          </div>
+          <div class="phc-footer">
+            <div class="phc-sk">// INGREDIENTS</div>
+            ${ingRows}
+          </div>
+          <div class="phc-btn-row">
+            <button class="phc-btn primary" onclick="PhasesApp.sendToPlanner('${item.name.replace(/'/g, "\\'")}',${item.required})">⬡ SEND TO PLANNER</button>
+          </div>
+        </div>`;
+      }).join('');
+
+      const phasePct = totalRequired > 0 ? Math.round((totalDelivered / totalRequired) * 100) : 0;
+      const barClass = phasePct >= 100 ? 'complete' : '';
+
+      return `<div class="phase-group">
+        <div class="phase-header">
+          <div class="phase-badge">${phase.name}</div>
+          <div class="phase-sub">// ${phase.tier}</div>
+          <div class="phase-line"></div>
+        </div>
+        <div class="phase-progress">
+          <div class="phase-bar"><div class="phase-bar-fill ${barClass}" style="width:${phasePct}%"></div></div>
+          <div class="phase-ptxt"><span>${phase.items.reduce((s, item, ii) => {
+            const k = `${pi}-${ii}`;
+            const st = state[k] || { done: false };
+            return s + (st.done || st.delivered >= item.required ? 1 : 0);
+          }, 0)}</span> / ${phase.items.length} items</div>
+        </div>
+        <div class="phase-grid">${cards}</div>
+      </div>`;
+    }).join('');
+  }
+
+  function updateDelivery(pi, ii, val) {
+    const state = loadState() || getDefaultState();
+    const key = `${pi}-${ii}`;
+    if (!state[key]) state[key] = { delivered: 0, done: false };
+    const item = PHASES[pi].items[ii];
+    state[key].delivered = Math.max(0, Math.min(item.required, parseInt(val) || 0));
+    if (state[key].delivered >= item.required) {
+      state[key].done = true;
+    }
+    saveState(state);
+    render();
+  }
+
+  function toggleDone(pi, ii) {
+    const state = loadState() || getDefaultState();
+    const key = `${pi}-${ii}`;
+    if (!state[key]) state[key] = { delivered: 0, done: false };
+    state[key].done = !state[key].done;
+    if (state[key].done) {
+      state[key].delivered = PHASES[pi].items[ii].required;
+    }
+    saveState(state);
+    render();
+  }
+
+  function sendToPlanner(itemName, quantity) {
+    const payload = {
+      i: itemName, t: quantity, oc: 100,
+      sl: 0, bl: 780, pl: 600,
+      or: {}
+    };
+    const encoded = btoa(unescape(encodeURIComponent(JSON.stringify(payload))));
+    window.location.href = `index.html?plan=${encoded}`;
+  }
+
+  function reset() {
+    saveState(getDefaultState());
+    render();
+  }
+
+  function init() {
+    if (!loadState()) {
+      saveState(getDefaultState());
+    }
+    render();
+  }
+
+  return { render, updateDelivery, toggleDone, sendToPlanner, reset, init };
+})();
+
+document.addEventListener('DOMContentLoaded', PhasesApp.init);
+</script>
+</body>
+</html>

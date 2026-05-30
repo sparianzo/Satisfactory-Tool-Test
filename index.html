@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>FactoryCalc — Pioneer Edition v1.4</title>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Share+Tech+Mono&family=Barlow:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+  <a class="logo" href="index.html">
+    <div class="logo-hex">
+      <svg width="28" height="28" viewBox="0 0 28 28"><polygon points="14,1 27,7.5 27,20.5 14,27 1,20.5 1,7.5" fill="#FFB300"/></svg>
+      <span class="logo-letter">F</span>
+    </div>
+    <span class="logo-wm">Factory<em>Calc</em></span>
+    <div class="logo-divider"></div>
+    <span class="logo-sub">Pioneer Edition</span>
+  </a>
+  <div class="nav-links">
+    <a href="index.html" class="nl on">Planner</a>
+    <a href="recipes.html" class="nl">Recipes</a>
+    <a href="power.html" class="nl">Power</a>
+    <a href="nodes.html" class="nl">Nodes</a>
+    <a href="phases.html" class="nl">Phases</a>
+  </div>
+  <div class="nav-r">
+    <span class="ver-tag">v1.4</span>
+    <div class="mode-badge" id="modeBadge">SINGLE ITEM MODE</div>
+    <button class="share-btn" onclick="App.shareURL()">⬡ SHARE BUILD</button>
+  </div>
+</nav>
+
+<div class="app">
+  <!-- CONFIG PANEL -->
+  <div class="config">
+    <div class="config-head">
+      <div class="config-title">CHAIN SOLVER</div>
+      <div class="config-sub">// FULL PRODUCTION CHAIN · MERGED NODES</div>
+    </div>
+
+    <div class="config-section">
+      <div class="cs-label">// TARGET OUTPUT</div>
+      <div class="field">
+        <div class="fl">Output Item</div>
+        <select class="fi amber-val" id="itemSelect" onchange="App.onItemChange(); App.solve();"></select>
+      </div>
+        <div class="field">
+          <div class="fl">Target Output / min <em id="targetDisplay">10</em></div>
+          <input class="fi amber-val" type="number" id="targetInput" value="10" min="0.1" step="0.5"
+            oninput="document.getElementById('targetDisplay').textContent=this.value; App.solve();" onchange="App.solve()">
+        </div>
+    </div>
+
+    <div class="config-section">
+      <div class="cs-label">// GLOBAL SETTINGS</div>
+      <div class="fi-row">
+        <div class="field">
+          <div class="fl">Belt / min</div>
+          <input class="fi" id="beltLimit" value="780" type="number" onchange="App.solve()">
+        </div>
+        <div class="field">
+          <div class="fl">Overclock %</div>
+          <input class="fi" id="overclock" value="100" type="number" min="1" max="250" onchange="App.solve()">
+        </div>
+      </div>
+      <div class="fi-row">
+        <div class="field">
+          <div class="fl">Pipe m³/min</div>
+          <input class="fi" id="pipeLimit" value="600" type="number" onchange="App.solve()">
+        </div>
+        <div class="field">
+          <div class="fl">Somersloop</div>
+          <select class="fi" id="sloopGlobal" onchange="App.solve()">
+            <option value="0">OFF</option>
+            <option value="1">Output ×2</option>
+          </select>
+        </div>
+        <div class="field">
+          <div class="fl">Byproduct Credit</div>
+          <select class="fi" id="byproductCredit" onchange="App.solve()">
+            <option value="0">OFF</option>
+            <option value="1">ON (offset raw nodes)</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <button class="solve-btn" onclick="App.solve()">⬡ CALCULATE CHAIN</button>
+
+    <div class="config-section" id="saveSection">
+      <div class="cs-label">// SAVED BUILDS</div>
+      <div class="save-row">
+        <input class="fi" id="buildName" placeholder="Name this build...">
+        <button class="save-btn" onclick="App.saveBuild()">SAVE</button>
+      </div>
+      <div id="savedList"></div>
+    </div>
+
+    <div class="swap-section" id="swapSection" style="display:none">
+      <div class="swap-title">// RECIPE OVERRIDES</div>
+      <div id="swapControls"></div>
+    </div>
+  </div>
+
+  <!-- CHAIN AREA -->
+  <div class="chain-area">
+    <div class="chain-toolbar">
+      <div class="ct-left">
+        <div class="chain-title" id="chainTitle">SELECT AN ITEM TO SOLVE</div>
+        <div class="chain-sub" id="chainSub">// Configure settings and click Calculate Chain</div>
+      </div>
+      <div class="ct-right">
+        <button class="view-btn on" onclick="App.setView('stages',this)">STAGES</button>
+        <button class="view-btn" onclick="App.setView('flat',this)">FLAT</button>
+      </div>
+    </div>
+
+    <div class="chain-scroll" id="chainScroll">
+      <div class="chain-empty" id="chainEmpty">
+        <div class="ce-icon">⬡</div>
+        <div class="ce-text">NO CHAIN CALCULATED<br>SELECT AN ITEM AND TARGET<br>THEN CLICK CALCULATE CHAIN</div>
+      </div>
+    </div>
+
+    <div id="rawSummary" class="raw-summary" style="display:none">
+      <span class="rs-label">// RAW NODES</span>
+      <div id="rawItems" style="display:flex;gap:8px;flex-wrap:wrap"></div>
+    </div>
+
+    <div id="totalsBar" class="totals-bar" style="display:none">
+      <div class="tb-inner">
+        <div class="tb-cell"><div class="tb-k">TOTAL MACHINES</div><div class="tb-v" id="totM">—</div><div class="tb-u">all stages</div></div>
+        <div class="tb-cell"><div class="tb-k">TOTAL POWER</div><div class="tb-v" id="totP">—</div><div class="tb-u">MW draw</div></div>
+        <div class="tb-cell"><div class="tb-k">STAGES</div><div class="tb-v" id="totS">—</div><div class="tb-u">depth</div></div>
+        <div class="tb-cell"><div class="tb-k">RAW RESOURCES</div><div class="tb-v" id="totR">—</div><div class="tb-u">node types</div></div>
+        <div class="tb-cell"><div class="tb-k">UNIQUE ITEMS</div><div class="tb-v" id="totI">—</div><div class="tb-u">in chain</div></div>
+        <div class="tb-actions">
+          <button class="tb-btn p" onclick="App.exportPlan()">Export Plan</button>
+          <button class="tb-btn s" onclick="App.shareURL()">Share URL</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- TOAST -->
+<div id="toast" class="toast"></div>
+
+<script src="recipes.js"></script>
+<script src="solver.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

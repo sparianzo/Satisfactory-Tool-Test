@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>FactoryCalc — Resource Nodes | Pioneer Edition</title>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Share+Tech+Mono&family=Barlow:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+.app{grid-template-columns:1fr}
+.nodes-page{display:flex;flex-direction:column;flex:1;overflow:hidden}
+.nodes-toolbar{padding:14px 24px;border-bottom:1px solid var(--border);background:rgba(12,10,6,0.5);flex-shrink:0}
+.nodes-toolbar .nt-title{font-family:'Rajdhani',sans-serif;font-size:18px;font-weight:700;color:var(--warm);letter-spacing:1px;margin-bottom:4px}
+.nodes-toolbar .nt-sub{font-family:'Share Tech Mono',monospace;font-size:9px;color:var(--dim);letter-spacing:2px}
+.nodes-toolbar .search-row{display:flex;gap:10px;margin-top:12px;align-items:center;flex-wrap:wrap}
+.nodes-toolbar .search-row .fi{flex:1;min-width:200px;max-width:400px}
+.nodes-toolbar .search-row .count{font-family:'Share Tech Mono',monospace;font-size:9px;color:var(--muted);letter-spacing:1px;white-space:nowrap}
+.nodes-scroll{flex:1;overflow-y:auto;padding:20px 24px}
+.resource-group{margin-bottom:24px}
+.resource-label{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+.resource-line{flex:1;height:1px;background:var(--border)}
+.resource-tag{font-family:'Share Tech Mono',monospace;font-size:8px;letter-spacing:2px;padding:3px 12px;background:var(--surface);color:var(--muted);border:1px solid var(--border)}
+.nodes-table{width:100%;border-collapse:collapse;margin-bottom:8px}
+.nodes-table th{background:var(--surface);padding:10px 14px;font-family:'Share Tech Mono',monospace;font-size:8px;color:var(--amber);letter-spacing:2px;text-align:left;border-bottom:1px solid var(--border)}
+.nodes-table td{padding:10px 14px;border-bottom:1px solid var(--border);font-size:12px;color:var(--warm)}
+.nodes-table tr:hover td{background:var(--surface)}
+.nodes-table .n-mono{font-family:'Share Tech Mono',monospace;color:var(--gold)}
+.nodes-table .n-count{font-family:'Share Tech Mono',monospace;font-size:14px;font-weight:600}
+.nodes-table .n-count.pure{color:#6EC96E}
+.nodes-table .n-count.normal{color:var(--gold)}
+.nodes-table .n-count.impure{color:var(--muted)}
+.nodes-table .n-region{font-size:10px;color:var(--muted)}
+.nodes-table .n-rate{font-family:'Share Tech Mono',monospace;font-size:11px;color:rgba(120,160,220,0.9)}
+.resource-total{display:flex;gap:16px;padding:8px 14px;background:var(--surface);border:1px solid var(--border);flex-wrap:wrap}
+.resource-total .rt-item{font-family:'Share Tech Mono',monospace;font-size:9px;color:var(--dim);letter-spacing:1px}
+.resource-total .rt-item span{color:var(--gold)}
+.hidden{display:none !important}
+.no-results{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:60px 20px;gap:12px;opacity:0.4}
+.no-results .nr-icon{font-size:36px}
+.no-results .nr-text{font-family:'Share Tech Mono',monospace;font-size:10px;color:var(--dim);letter-spacing:2px;text-align:center}
+</style>
+</head>
+<body>
+  <nav>
+  <a class="logo" href="index.html">
+    <div class="logo-hex">
+      <svg width="28" height="28" viewBox="0 0 28 28"><polygon points="14,1 27,7.5 27,20.5 14,27 1,20.5 1,7.5" fill="#FFB300"/></svg>
+      <span class="logo-letter">F</span>
+    </div>
+    <span class="logo-wm">Factory<em>Calc</em></span>
+    <div class="logo-divider"></div>
+    <span class="logo-sub">Pioneer Edition</span>
+  </a>
+  <div class="nav-links">
+    <a href="index.html" class="nl">Planner</a>
+    <a href="recipes.html" class="nl">Recipes</a>
+    <a href="power.html" class="nl">Power</a>
+    <a href="nodes.html" class="nl on">Nodes</a>
+    <a href="phases.html" class="nl">Phases</a>
+  </div>
+  <div class="nav-r">
+    <span class="ver-tag">v1.4</span>
+    <div class="mode-badge">NODE DATABASE</div>
+  </div>
+</nav>
+
+<div class="app">
+  <div class="nodes-page">
+    <div class="nodes-toolbar">
+      <div class="nt-title">RESOURCE NODE DATABASE</div>
+      <div class="nt-sub">// NODE CLASSIFICATION · PURITY DISTRIBUTION · OUTPUT RATES BY MINER TIER</div>
+      <div class="search-row">
+        <input class="fi" id="nodeSearch" type="text" placeholder="Search resources..." oninput="NodesApp.render()">
+        <select class="fi" id="minerTier" onchange="NodesApp.render()" style="max-width:160px;flex:none">
+          <option value="1">Miner Mk.1 (60/m)</option>
+          <option value="2">Miner Mk.2 (120/m)</option>
+          <option value="3" selected>Miner Mk.3 (240/m)</option>
+        </select>
+        <span class="count" id="resultCount"></span>
+      </div>
+    </div>
+    <div class="nodes-scroll" id="nodesScroll">
+      <div id="nodesContainer"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+const NodesApp = (() => {
+  const MINER_RATES = { 1: 60, 2: 120, 3: 240 };
+  const PURITY_MULT = { 'Pure': 2.0, 'Normal': 1.0, 'Impure': 0.5 };
+
+  const RESOURCES = [
+    {
+      name: 'Iron Ore', tag: 'IRON',
+      nodes: [
+        { purity: 'Pure', count: 24, region: 'Northern Forest, Rocky Desert, Grassy Fields' },
+        { purity: 'Normal', count: 38, region: 'Dune Desert, Spire Coast, Titan Forest' },
+        { purity: 'Impure', count: 30, region: 'Green Hills, Southern Valley, Western Dunes' }
+      ]
+    },
+    {
+      name: 'Copper Ore', tag: 'COPPER',
+      nodes: [
+        { purity: 'Pure', count: 12, region: 'Northern Forest, Rocky Desert' },
+        { purity: 'Normal', count: 22, region: 'Dune Desert, Grassy Fields, Spire Coast' },
+        { purity: 'Impure', count: 16, region: 'Green Hills, Western Dunes' }
+      ]
+    },
+    {
+      name: 'Caterium Ore', tag: 'CATERIUM',
+      nodes: [
+        { purity: 'Pure', count: 5, region: 'Rocky Desert, Northern Forest' },
+        { purity: 'Normal', count: 10, region: 'Titan Forest, Spire Coast' },
+        { purity: 'Impure', count: 7, region: 'Western Dunes, Green Hills' }
+      ]
+    },
+    {
+      name: 'Limestone', tag: 'LIMESTONE',
+      nodes: [
+        { purity: 'Pure', count: 18, region: 'Grassy Fields, Dune Desert, Rocky Desert' },
+        { purity: 'Normal', count: 30, region: 'Northern Forest, Spire Coast, Green Hills' },
+        { purity: 'Impure', count: 22, region: 'Western Dunes, Southern Valley, Titan Forest' }
+      ]
+    },
+    {
+      name: 'Coal', tag: 'COAL',
+      nodes: [
+        { purity: 'Pure', count: 10, region: 'Northern Forest, Spire Coast' },
+        { purity: 'Normal', count: 18, region: 'Dune Desert, Rocky Desert, Grassy Fields' },
+        { purity: 'Impure', count: 12, region: 'Green Hills, Southern Valley' }
+      ]
+    },
+    {
+      name: 'Sulfur', tag: 'SULFUR',
+      nodes: [
+        { purity: 'Pure', count: 4, region: 'Northern Forest' },
+        { purity: 'Normal', count: 7, region: 'Dune Desert, Spire Coast' },
+        { purity: 'Impure', count: 5, region: 'Rocky Desert, Green Hills' }
+      ]
+    },
+    {
+      name: 'Raw Quartz', tag: 'QUARTZ',
+      nodes: [
+        { purity: 'Pure', count: 4, region: 'Northern Forest, Rocky Desert' },
+        { purity: 'Normal', count: 7, region: 'Dune Desert, Red Jungle' },
+        { purity: 'Impure', count: 5, region: 'Green Hills, Southern Valley' }
+      ]
+    },
+    {
+      name: 'Bauxite', tag: 'BAUXITE',
+      nodes: [
+        { purity: 'Pure', count: 4, region: 'Red Jungle, Spire Coast' },
+        { purity: 'Normal', count: 7, region: 'Dune Desert, Titan Forest' },
+        { purity: 'Impure', count: 5, region: 'Green Hills' }
+      ]
+    },
+    {
+      name: 'Uranium', tag: 'URANIUM',
+      nodes: [
+        { purity: 'Pure', count: 1, region: 'Dune Desert' },
+        { purity: 'Normal', count: 3, region: 'Spire Coast, Swamp' },
+        { purity: 'Impure', count: 2, region: 'Red Jungle, Bamboo Fields' }
+      ]
+    },
+    {
+      name: 'SAM', tag: 'SAM',
+      nodes: [
+        { purity: 'Pure', count: 3, region: 'Northern Forest, Dune Desert' },
+        { purity: 'Normal', count: 5, region: 'Rocky Desert, Titan Forest' },
+        { purity: 'Impure', count: 4, region: 'Green Hills, Western Dunes' }
+      ]
+    },
+    {
+      name: 'Nitrogen Gas', tag: 'NITROGEN',
+      nodes: [
+        { purity: 'Pure', count: 3, region: 'Spire Coast, Red Jungle' },
+        { purity: 'Normal', count: 5, region: 'Rocky Desert, Dune Desert' },
+        { purity: 'Impure', count: 3, region: 'Northern Forest, Swamp' }
+      ]
+    },
+    {
+      name: 'Water', tag: 'WATER',
+      nodes: [
+        { purity: 'Pure', count: 12, region: 'All Biomes' },
+        { purity: 'Normal', count: 24, region: 'All Biomes' },
+        { purity: 'Impure', count: 16, region: 'All Biomes' }
+      ]
+    }
+  ];
+
+  function calcRate(baseRate, purity) {
+    return baseRate * PURITY_MULT[purity];
+  }
+
+  function render() {
+    const query = (document.getElementById('nodeSearch').value || '').toLowerCase().trim();
+    const minerTier = parseInt(document.getElementById('minerTier').value) || 3;
+    const baseRate = MINER_RATES[minerTier];
+    const container = document.getElementById('nodesContainer');
+    const countEl = document.getElementById('resultCount');
+
+    const filtered = RESOURCES.filter(r => {
+      if (!query) return true;
+      return r.name.toLowerCase().includes(query) || r.tag.toLowerCase().includes(query);
+    });
+
+    countEl.textContent = `${filtered.length} resource${filtered.length !== 1 ? 's' : ''}`;
+
+    if (!filtered.length) {
+      container.innerHTML = `<div class="no-results"><div class="nr-icon">⬡</div><div class="nr-text">NO RESOURCES MATCH<br>${query.toUpperCase()}</div></div>`;
+      return;
+    }
+
+    const totalAllNodes = filtered.reduce((sum, r) => {
+      return sum + r.nodes.reduce((s, n) => s + n.count, 0);
+    }, 0);
+
+    const totalAllOutput = filtered.reduce((sum, r) => {
+      return sum + r.nodes.reduce((s, n) => s + n.count * calcRate(baseRate, n.purity), 0);
+    }, 0);
+
+    container.innerHTML = filtered.map(r => {
+      const totalNodes = r.nodes.reduce((s, n) => s + n.count, 0);
+      const maxOutput = r.nodes.reduce((s, n) => s + n.count * calcRate(baseRate, n.purity), 0);
+
+      const rows = r.nodes.map(n => {
+        const rate = calcRate(baseRate, n.purity);
+        return `<tr>
+          <td><span class="n-mono">${n.purity}</span></td>
+          <td><span class="n-count ${n.purity.toLowerCase()}">${n.count}</span></td>
+          <td><span class="n-rate">${rate}/min</span></td>
+          <td><span class="n-mono">×${n.count * rate}/min</span></td>
+          <td><span class="n-region">${n.region}</span></td>
+        </tr>`;
+      }).join('');
+
+      return `<div class="resource-group" data-resource="${r.name}">
+        <div class="resource-label">
+          <span class="resource-tag">${r.tag}</span>
+          <div class="resource-line"></div>
+        </div>
+        <table class="nodes-table">
+          <thead>
+            <tr><th>PURITY</th><th>COUNT</th><th>PER NODE</th><th>TOTAL</th><th>REGIONS</th></tr>
+          </thead>
+          <tbody>${rows}</tbody>
+        </table>
+        <div class="resource-total">
+          <div class="rt-item">TOTAL NODES: <span>${totalNodes}</span></div>
+          <div class="rt-item">MAX OUTPUT: <span>${maxOutput.toLocaleString()} / min</span></div>
+        </div>
+      </div>`;
+    }).join('') + `<div class="resource-total" style="margin-top:16px;background:var(--panel)">
+      <div class="rt-item">GRAND TOTAL NODES: <span>${totalAllNodes}</span></div>
+      <div class="rt-item">GRAND TOTAL OUTPUT: <span>${totalAllOutput.toLocaleString()} / min</span></div>
+    </div>`;
+  }
+
+  function init() {
+    render();
+  }
+
+  return { render, init };
+})();
+
+document.addEventListener('DOMContentLoaded', NodesApp.init);
+</script>
+</body>
+</html>
