@@ -519,7 +519,13 @@ const App = (() => {
     toastTimer = setTimeout(() => el.classList.remove('show'), 2500);
   }
 
-  return { init, solve, setView, setRecipe, onItemChange, shareURL, saveBuild, loadBuild, deleteBuild, exportPlan };
+  function solveForPower() {
+    if (!state.result) { toast('SOLVE A CHAIN FIRST'); return; }
+    const demand = Math.ceil(state.result.totalPower);
+    window.location.href = `power.html?demand=${demand}`;
+  }
+
+  return { init, solve, setView, setRecipe, onItemChange, shareURL, saveBuild, loadBuild, deleteBuild, exportPlan, solveForPower };
 })();
 
 document.addEventListener('DOMContentLoaded', App.init);

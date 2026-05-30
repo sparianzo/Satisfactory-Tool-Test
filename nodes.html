@@ -20,6 +20,8 @@
 .resource-label{display:flex;align-items:center;gap:10px;margin-bottom:10px}
 .resource-line{flex:1;height:1px;background:var(--border)}
 .resource-tag{font-family:'Share Tech Mono',monospace;font-size:8px;letter-spacing:2px;padding:3px 12px;background:var(--surface);color:var(--muted);border:1px solid var(--border)}
+.resource-biomes{padding:10px 14px 6px;font-family:'Share Tech Mono',monospace;font-size:9px;color:var(--dim);letter-spacing:1px;border-bottom:1px solid var(--border);background:rgba(255,179,0,0.025)}
+.resource-biomes span{color:var(--muted)}
 .nodes-table{width:100%;border-collapse:collapse;margin-bottom:8px}
 .nodes-table th{background:var(--surface);padding:10px 14px;font-family:'Share Tech Mono',monospace;font-size:8px;color:var(--amber);letter-spacing:2px;text-align:left;border-bottom:1px solid var(--border)}
 .nodes-table td{padding:10px 14px;border-bottom:1px solid var(--border);font-size:12px;color:var(--warm)}
@@ -93,6 +95,7 @@ const NodesApp = (() => {
   const RESOURCES = [
     {
       name: 'Iron Ore', tag: 'IRON',
+      zones: ["Rocky Desert", "Northern Forest", "Grass Fields", "Desert Canyons", "Dune Desert", "Titan Forest", "Red Bamboo Fields", "Swamp", "Spire Coast"],
       nodes: [
         { purity: 'Pure', count: 24, region: 'Northern Forest, Rocky Desert, Grassy Fields' },
         { purity: 'Normal', count: 38, region: 'Dune Desert, Spire Coast, Titan Forest' },
@@ -101,6 +104,7 @@ const NodesApp = (() => {
     },
     {
       name: 'Copper Ore', tag: 'COPPER',
+      zones: ["Dune Desert", "Northern Forest", "Rocky Desert", "Grass Fields", "Swamp", "Red Jungle", "Spire Coast"],
       nodes: [
         { purity: 'Pure', count: 12, region: 'Northern Forest, Rocky Desert' },
         { purity: 'Normal', count: 22, region: 'Dune Desert, Grassy Fields, Spire Coast' },
@@ -109,6 +113,7 @@ const NodesApp = (() => {
     },
     {
       name: 'Caterium Ore', tag: 'CATERIUM',
+      zones: ["Northern Forest", "Rocky Desert", "Red Bamboo Fields", "Dune Desert"],
       nodes: [
         { purity: 'Pure', count: 5, region: 'Rocky Desert, Northern Forest' },
         { purity: 'Normal', count: 10, region: 'Titan Forest, Spire Coast' },
@@ -117,6 +122,7 @@ const NodesApp = (() => {
     },
     {
       name: 'Limestone', tag: 'LIMESTONE',
+      zones: ["Dune Desert", "Rocky Desert", "Grass Fields", "Northern Forest", "Swamp"],
       nodes: [
         { purity: 'Pure', count: 18, region: 'Grassy Fields, Dune Desert, Rocky Desert' },
         { purity: 'Normal', count: 30, region: 'Northern Forest, Spire Coast, Green Hills' },
@@ -125,6 +131,7 @@ const NodesApp = (() => {
     },
     {
       name: 'Coal', tag: 'COAL',
+      zones: ["Northern Forest", "Rocky Desert", "Desert Canyons", "Spire Coast", "Swamp", "Dune Desert"],
       nodes: [
         { purity: 'Pure', count: 10, region: 'Northern Forest, Spire Coast' },
         { purity: 'Normal', count: 18, region: 'Dune Desert, Rocky Desert, Grassy Fields' },
@@ -133,6 +140,7 @@ const NodesApp = (() => {
     },
     {
       name: 'Sulfur', tag: 'SULFUR',
+      zones: ["Rocky Desert", "Northern Forest", "Swamp", "Dune Desert", "Spire Coast"],
       nodes: [
         { purity: 'Pure', count: 4, region: 'Northern Forest' },
         { purity: 'Normal', count: 7, region: 'Dune Desert, Spire Coast' },
@@ -141,6 +149,7 @@ const NodesApp = (() => {
     },
     {
       name: 'Raw Quartz', tag: 'QUARTZ',
+      zones: ["Northern Forest", "Rocky Desert", "Dune Desert", "Red Bamboo Fields", "Swamp"],
       nodes: [
         { purity: 'Pure', count: 4, region: 'Northern Forest, Rocky Desert' },
         { purity: 'Normal', count: 7, region: 'Dune Desert, Red Jungle' },
@@ -149,6 +158,7 @@ const NodesApp = (() => {
     },
     {
       name: 'Bauxite', tag: 'BAUXITE',
+      zones: ["Red Bamboo Fields", "Red Jungle", "Swamp", "Spire Coast"],
       nodes: [
         { purity: 'Pure', count: 4, region: 'Red Jungle, Spire Coast' },
         { purity: 'Normal', count: 7, region: 'Dune Desert, Titan Forest' },
@@ -157,6 +167,7 @@ const NodesApp = (() => {
     },
     {
       name: 'Uranium', tag: 'URANIUM',
+      zones: ["Swamp"],
       nodes: [
         { purity: 'Pure', count: 1, region: 'Dune Desert' },
         { purity: 'Normal', count: 3, region: 'Spire Coast, Swamp' },
@@ -165,6 +176,7 @@ const NodesApp = (() => {
     },
     {
       name: 'SAM', tag: 'SAM',
+      zones: ["Dune Desert", "Red Bamboo Fields", "Swamp", "Spire Coast"],
       nodes: [
         { purity: 'Pure', count: 3, region: 'Northern Forest, Dune Desert' },
         { purity: 'Normal', count: 5, region: 'Rocky Desert, Titan Forest' },
@@ -173,6 +185,7 @@ const NodesApp = (() => {
     },
     {
       name: 'Nitrogen Gas', tag: 'NITROGEN',
+      zones: ["Dune Desert", "Red Bamboo Fields", "Rocky Desert", "Spire Coast", "Northern Forest"],
       nodes: [
         { purity: 'Pure', count: 3, region: 'Spire Coast, Red Jungle' },
         { purity: 'Normal', count: 5, region: 'Rocky Desert, Dune Desert' },
@@ -240,6 +253,7 @@ const NodesApp = (() => {
           <span class="resource-tag">${r.tag}</span>
           <div class="resource-line"></div>
         </div>
+        <div class="resource-biomes">BIOMES: <span>${r.zones && r.zones.length ? r.zones.join(' · ') : 'Infinite'}</span></div>
         <table class="nodes-table">
           <thead>
             <tr><th>PURITY</th><th>COUNT</th><th>PER NODE</th><th>TOTAL</th><th>REGIONS</th></tr>

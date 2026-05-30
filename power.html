@@ -263,6 +263,39 @@ const PowerCalc = (() => {
     calculate();
   }
 
+  function autoSizeDemand(demand) {
+    const ocMult = 1;
+    let remaining = demand;
+
+    const sorted = GENERATORS
+      .filter(g => g.id !== 'geothermal')
+      .sort((a, b) => b.baseMW - a.baseMW);
+
+    const state = loadState() || getDefaultState();
+
+    for (const gen of sorted) {
+      const perUnit = gen.baseMW * ocMult;
+      const count = remaining > 0 ? Math.ceil(remaining / perUnit) : 0;
+      const st = state.generators.find(s => s.id === gen.id);
+      if (st) {
+        st.count = count;
+        st.oc = 100;
+      }
+      remaining -= count * perUnit;
+    }
+
+    const geo = state.generators.find(s => s.id === 'geothermal');
+    if (geo) {
+      geo.count = GENERATORS.find(g => g.id === 'geothermal').defaultCount;
+      geo.oc = 100;
+    }
+
+    state.demand = demand;
+    saveState(state);
+    renderGenerators();
+    calculate();
+  }
+
   function init() {
     const saved = loadState();
     if (!saved) {
@@ -270,6 +303,14 @@ const PowerCalc = (() => {
     }
     renderGenerators();
     calculate();
+
+    const params = new URLSearchParams(window.location.search);
+    if (params.has('demand')) {
+      const demand = parseFloat(params.get('demand')) || 0;
+      if (demand > 0) {
+        autoSizeDemand(demand);
+      }
+    }
   }
 
   return { calculate, reset, init };

@@ -509,13 +509,19 @@ const RECIPES = {
     }
   },
   'Cluster Nobelisk': {
-    alts: ["Basic"],
+    alts: ["Basic", "Basic (EW)"],
     recipes: {
       'Basic': {
         building: 'Assembler',
         mw: 15.0,
         output: 2.5,
         inputs: [{"item": "Nobelisk", "qty": 7.5}, {"item": "Smokeless Powder", "qty": 10.0}]
+      },
+      'Basic (EW)': {
+        building: 'Equipment Workshop',
+        mw: 0.0,
+        output: 1.25,
+        inputs: [{"item": "Nobelisk", "qty": 3.75}, {"item": "Smokeless Powder", "qty": 5.0}]
       },
     }
   },
@@ -988,13 +994,19 @@ const RECIPES = {
     }
   },
   'Explosive Rebar': {
-    alts: ["Basic"],
+    alts: ["Basic", "Basic (EW)"],
     recipes: {
       'Basic': {
         building: 'Manufacturer',
         mw: 55.0,
         output: 5.0,
         inputs: [{"item": "Iron Rebar", "qty": 10.0}, {"item": "Smokeless Powder", "qty": 10.0}, {"item": "Steel Pipe", "qty": 10.0}]
+      },
+      'Basic (EW)': {
+        building: 'Equipment Workshop',
+        mw: 0.0,
+        output: 2.5,
+        inputs: [{"item": "Iron Rebar", "qty": 5.0}, {"item": "Smokeless Powder", "qty": 5.0}, {"item": "Steel Pipe", "qty": 5.0}]
       },
     }
   },
@@ -1122,13 +1134,19 @@ const RECIPES = {
     }
   },
   'Gas Filter': {
-    alts: ["Basic"],
+    alts: ["Basic", "Basic (EW)"],
     recipes: {
       'Basic': {
         building: 'Manufacturer',
         mw: 55.0,
         output: 7.5,
         inputs: [{"item": "Coal", "qty": 30.0}, {"item": "Iron Plate", "qty": 15.0}, {"item": "Fabric", "qty": 15.0}]
+      },
+      'Basic (EW)': {
+        building: 'Equipment Workshop',
+        mw: 0.0,
+        output: 3.75,
+        inputs: [{"item": "Fabric", "qty": 7.5}, {"item": "Coal", "qty": 15.0}, {"item": "Iron Plate", "qty": 7.5}]
       },
     }
   },
@@ -1144,13 +1162,19 @@ const RECIPES = {
     }
   },
   'Gas Nobelisk': {
-    alts: ["Basic"],
+    alts: ["Basic", "Basic (EW)"],
     recipes: {
       'Basic': {
         building: 'Assembler',
         mw: 15.0,
         output: 5.0,
         inputs: [{"item": "Nobelisk", "qty": 5.0}, {"item": "Biomass", "qty": 50.0}]
+      },
+      'Basic (EW)': {
+        building: 'Equipment Workshop',
+        mw: 0.0,
+        output: 2.5,
+        inputs: [{"item": "Nobelisk", "qty": 2.5}, {"item": "Biomass", "qty": 25.0}]
       },
     }
   },
@@ -1258,13 +1282,19 @@ const RECIPES = {
     }
   },
   'Homing Rifle Ammo': {
-    alts: ["Basic"],
+    alts: ["Basic", "Basic (EW)"],
     recipes: {
       'Basic': {
         building: 'Assembler',
         mw: 15.0,
         output: 25.0,
         inputs: [{"item": "Rifle Ammo", "qty": 50.0}, {"item": "High-Speed Connector", "qty": 2.5}]
+      },
+      'Basic (EW)': {
+        building: 'Equipment Workshop',
+        mw: 0.0,
+        output: 12.5,
+        inputs: [{"item": "Rifle Ammo", "qty": 25.0}, {"item": "High-Speed Connector", "qty": 1.25}]
       },
     }
   },
@@ -1280,13 +1310,19 @@ const RECIPES = {
     }
   },
   'Iodine Infused Filter': {
-    alts: ["Basic"],
+    alts: ["Basic", "Basic (EW)"],
     recipes: {
       'Basic': {
         building: 'Manufacturer',
         mw: 55.0,
         output: 3.75,
         inputs: [{"item": "Gas Filter", "qty": 3.75}, {"item": "Quickwire", "qty": 30.0}, {"item": "Aluminum Casing", "qty": 3.75}]
+      },
+      'Basic (EW)': {
+        building: 'Equipment Workshop',
+        mw: 0.0,
+        output: 1.875,
+        inputs: [{"item": "Gas Filter", "qty": 1.875}, {"item": "Quickwire", "qty": 15.0}, {"item": "Aluminum Casing", "qty": 1.875}]
       },
     }
   },
@@ -1394,13 +1430,19 @@ const RECIPES = {
     }
   },
   'Iron Rebar': {
-    alts: ["Basic"],
+    alts: ["Basic", "Basic (EW)"],
     recipes: {
       'Basic': {
         building: 'Constructor',
         mw: 4.0,
         output: 15.0,
         inputs: [{"item": "Iron Rod", "qty": 15.0}]
+      },
+      'Basic (EW)': {
+        building: 'Equipment Workshop',
+        mw: 0.0,
+        output: 7.5,
+        inputs: [{"item": "Iron Rod", "qty": 7.5}]
       },
     }
   },
@@ -2009,13 +2051,19 @@ const RECIPES = {
     }
   },
   'Pulse Nobelisk': {
-    alts: ["Basic"],
+    alts: ["Basic", "Basic (EW)"],
     recipes: {
       'Basic': {
         building: 'Assembler',
         mw: 15.0,
         output: 5.0,
         inputs: [{"item": "Nobelisk", "qty": 5.0}, {"item": "Crystal Oscillator", "qty": 1.0}]
+      },
+      'Basic (EW)': {
+        building: 'Equipment Workshop',
+        mw: 0.0,
+        output: 2.5,
+        inputs: [{"item": "Nobelisk", "qty": 2.5}, {"item": "Crystal Oscillator", "qty": 0.5}]
       },
     }
   },
@@ -2178,13 +2226,19 @@ const RECIPES = {
     }
   },
   'Rifle Ammo': {
-    alts: ["Basic"],
+    alts: ["Basic", "Basic (EW)"],
     recipes: {
       'Basic': {
         building: 'Assembler',
         mw: 15.0,
         output: 75.0,
         inputs: [{"item": "Copper Sheet", "qty": 15.0}, {"item": "Smokeless Powder", "qty": 10.0}]
+      },
+      'Basic (EW)': {
+        building: 'Equipment Workshop',
+        mw: 0.0,
+        output: 37.5,
+        inputs: [{"item": "Copper Sheet", "qty": 7.5}, {"item": "Smokeless Powder", "qty": 5.0}]
       },
     }
   },
@@ -2612,13 +2666,19 @@ const RECIPES = {
     }
   },
   'Turbo Rifle Ammo': {
-    alts: ["Basic"],
+    alts: ["Basic", "Basic (EW)"],
     recipes: {
       'Basic': {
         building: 'Manufacturer',
         mw: 55.0,
         output: 250.0,
         inputs: [{"item": "Rifle Ammo", "qty": 125.0}, {"item": "Aluminum Casing", "qty": 15.0}, {"item": "Packaged Turbofuel", "qty": 15.0}]
+      },
+      'Basic (EW)': {
+        building: 'Equipment Workshop',
+        mw: 0.0,
+        output: 125.0,
+        inputs: [{"item": "Rifle Ammo", "qty": 62.5}, {"item": "Aluminum Casing", "qty": 7.5}, {"item": "Packaged Turbofuel", "qty": 7.5}]
       },
     }
   },

@@ -322,6 +322,16 @@ Alternate	Dark-Ion Fuel	Converter	250	Packaged Rocket Fuel	240	Dark Matter Cryst
 Alternate	Distilled Silica	Blender	75	Dissolved Silica	120	Limestone	50	Water	100			Silica	270	Water	80	1000	B
 Basic	Uranium Fuel Rod (burning)	Nuclear Power Plant	0	Uranium Fuel Rod	0.2	Water	240					Uranium Waste	10			1000	
 Basic	Plutonium Fuel Rod (burning)	Nuclear Power Plant	0	Plutonium Fuel Rod	0.1	Water	240					Plutonium Waste	1			1000	
+Basic	Cluster Nobelisk (EW)	Equipment Workshop	0	Nobelisk	3.75	Smokeless Powder	5					Cluster Nobelisk	1.25			1000	
+Basic	Rifle Ammo (EW)	Equipment Workshop	0	Copper Sheet	7.5	Smokeless Powder	5					Rifle Ammo	37.5			1000	
+Basic	Homing Rifle Ammo (EW)	Equipment Workshop	0	Rifle Ammo	25	High-Speed Connector	1.25					Homing Rifle Ammo	12.5			1000	
+Basic	Gas Filter (EW)	Equipment Workshop	0	Fabric	7.5	Coal	15	Iron Plate	7.5			Gas Filter	3.75			1000	
+Basic	Iodine Infused Filter (EW)	Equipment Workshop	0	Gas Filter	1.875	Quickwire	15	Aluminum Casing	1.875			Iodine Infused Filter	1.875			1000	
+Basic	Iron Rebar (EW)	Equipment Workshop	0	Iron Rod	7.5							Iron Rebar	7.5			1000	
+Basic	Gas Nobelisk (EW)	Equipment Workshop	0	Nobelisk	2.5	Biomass	25					Gas Nobelisk	2.5			1000	
+Basic	Pulse Nobelisk (EW)	Equipment Workshop	0	Nobelisk	2.5	Crystal Oscillator	0.5					Pulse Nobelisk	2.5			1000	
+Basic	Explosive Rebar (EW)	Equipment Workshop	0	Iron Rebar	5	Smokeless Powder	5	Steel Pipe	5			Explosive Rebar	2.5			1000	
+Basic	Turbo Rifle Ammo (EW)	Equipment Workshop	0	Rifle Ammo	62.5	Aluminum Casing	7.5	Packaged Turbofuel	7.5			Turbo Rifle Ammo	125			1000	
 
 """
 
